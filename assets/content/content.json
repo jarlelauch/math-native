@@ -1,0 +1,981 @@
+{
+ "app": "MATH",
+ "cats": {
+  "teori": [
+   {
+    "id": "Akar-Kuadrat",
+    "title": "📘 Akar Kuadrat",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\01-Aritmetika\\Akar-Kuadrat.md",
+    "topic": "Akar Kuadrat",
+    "level": "SMP",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aritmetika]",
+    "excerpt": "📘 Akar Kuadrat 1. Definisi 2. Teorema / Rumus \\sqrt{ab} = \\sqrt{a}\\sqrt{b}, \\qquad \\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}\\quad(b 0) Kuadrat sempurna wajib hafal: 1,4,9,16,25,36,49,64,81,100,121,144,169 . 3. Visual & Intuisi \\sqrt{144}=12 artinya: persegi dengan luas 144 punya sisi 12 . Lihat [[Luas-Persegi|Luas Persegi]] untuk kebalikannya, dan [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] untuk pemakaian akar mencari sisi miring. 4. Contoh Worked Example Contoh 1: Sederhanakan \\sqrt{72} . \\sqrt{72} = \\sqrt{36\\cdot 2} = 6\\sqrt{2} 5. Kesalahan Umum ⚠️ - \\sqrt{a+b} \\neq ",
+    "body": "# 📘 Akar Kuadrat\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menghitung $\\sqrt{n}$ untuk kuadrat sempurna, menyederhanakan $\\sqrt{ab}$, dan memakai akar untuk mencari sisi persegi dari luasnya.\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (pangkat).\n\n## 1. Definisi\n\n> **Definisi formal:** $\\sqrt{n}$ adalah bilangan taknegatif yang kuadratnya $n$:\n> $$\n> \\sqrt{n} = m \\quad\\Longleftrightarrow\\quad m^2 = n,\\ m \\ge 0\n> $$\n\n## 2. Teorema / Rumus\n\n$$\n\\sqrt{ab} = \\sqrt{a}\\sqrt{b}, \\qquad \\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}\\quad(b>0)\n$$\n\nKuadrat sempurna wajib hafal: $1,4,9,16,25,36,49,64,81,100,121,144,169$.\n\n## 3. Visual & Intuisi\n\n$\\sqrt{144}=12$ artinya: persegi dengan luas $144$ punya sisi $12$.\nLihat [[Luas-Persegi|Luas Persegi]] untuk kebalikannya, dan\n[[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] untuk pemakaian\nakar mencari sisi miring.\n\n```desmos-graph\ny=\\sqrt{x}\ny=12\n```\n\n## 4. Contoh Worked Example\n\n**Contoh 1:** Sederhanakan $\\sqrt{72}$.\n$$\n\\sqrt{72} = \\sqrt{36\\cdot 2} = 6\\sqrt{2}\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Cari faktor kuadrat sempurna terbesar dari 72: $36$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> $72 = 36\\cdot 2$, jadi $\\sqrt{72}=\\sqrt{36}\\sqrt{2}=6\\sqrt{2}$.\n> Jawaban: $\\boxed{6\\sqrt{2}}$\n\n## 5. Kesalahan Umum ⚠️\n\n- $\\sqrt{a+b} \\neq \\sqrt{a}+\\sqrt{b}$ (akar tidak distributif atas jumlah!).\n- Lupa $\\sqrt{x^2} = |x|$, bukan $x$ (penting jika $x$ bisa negatif).\n\n## 6. Flashcard (Spaced Repetition)\n\n$\\sqrt{144}$?::$\\boxed{12}$ karena $12^2=144$.\n\nSederhanakan $\\sqrt{72}$?::$\\boxed{6\\sqrt{2}}$ karena $72=36\\cdot 2$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Akar_kuadrat\n- Khan Academy: https://www.khanacademy.org/math/algebra-basics/alg-basics-roots-radicals\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[Luas-Persegi|Luas Persegi]] • [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]\n",
+    "visuals": [],
+    "desmos": [
+     "y=\\sqrt{x}\ny=12"
+    ],
+    "flashcards": [
+     "$\\sqrt{144}$? :: $\\boxed{12}$ karena $12^2=144$.",
+     "Sederhanakan $\\sqrt{72}$? :: $\\boxed{6\\sqrt{2}}$ karena $72=36\\cdot 2$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Barisan-Deret-Aritmetika-Geometri",
+    "title": "📘 Barisan & Deret Aritmetika–Geometri",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\02-Aljabar\\Barisan-Deret-Aritmetika-Geometri.md",
+    "topic": "Barisan Deret",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aljabar]",
+    "excerpt": "📘 Barisan & Deret Aritmetika–Geometri 1. Definisi 2. Teorema / Rumus U_n = a+(n-1)b, \\qquad S_n = \\frac{n}{2}\\bigl(2a+(n-1)b\\bigr) U_n = ar^{n-1}, \\qquad S_n = a\\frac{1-r^n}{1-r},\\qquad S_\\infty=\\frac{a}{1-r}\\ (|r|<1) Rumus turunan / kasus khusus: - b = U_2-U_1 , r = U_2/U_1 (cek dari dua suku awal). - Sisipan k suku di antara x,y (aritmetika): b'=\\frac{y-x}{k+1} . - Jumlah tak hingga hanya ada jika |r|<1 . 3. Visual & Intuisi Intuisi anak tangga vs fotokopi Aritmetika = anak tangga (naik TETAP b tiap langkah). Geometri = fotokopi diperbesar (dikali TETAP r ). S_n aritmetika = rata-rata ujung ",
+    "body": "# 📘 Barisan & Deret Aritmetika–Geometri\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: membedakan aritmetika vs geometri, memakai rumus $U_n$ dan $S_n$ keduanya, serta menyelesaikan soal cari-suku-awal seperti detektif.\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (pangkat, pecahan).\n\n## 1. Definisi\n\n> **Definisi formal:** Barisan aritmetika punya **beda** tetap $b$\n> ($U_{n+1}-U_n=b$); barisan geometri punya **rasio** tetap $r$\n> ($U_{n+1}/U_n=r$). Deret = jumlah suku barisan.\n\n## 2. Teorema / Rumus\n\n$$\nU_n = a+(n-1)b, \\qquad S_n = \\frac{n}{2}\\bigl(2a+(n-1)b\\bigr)\n$$\n\n$$\nU_n = ar^{n-1}, \\qquad S_n = a\\frac{1-r^n}{1-r},\\qquad S_\\infty=\\frac{a}{1-r}\\ (|r|<1)\n$$\n\nRumus turunan / kasus khusus:\n- $b = U_2-U_1$, $r = U_2/U_1$ (cek dari dua suku awal).\n- Sisipan $k$ suku di antara $x,y$ (aritmetika): $b'=\\frac{y-x}{k+1}$.\n- Jumlah tak hingga hanya ada jika $|r|<1$.\n\n## 3. Visual & Intuisi\n\n### Intuisi anak tangga vs fotokopi\n\nAritmetika = anak tangga (naik TETAP $b$ tiap langkah). Geometri = fotokopi\ndiperbesar (dikali TETAP $r$). $S_n$ aritmetika = rata-rata ujung\n$\\times$ banyak suku: $S_n = n\\cdot\\frac{U_1+U_n}{2}$.\n\n### GeoGebra (interaktif — butuh internet)\n\nPlot titik $(n, U_n)$, amati garis lurus vs lengkung eksponen:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet: geogebra.org/search → `arithmetic geometric sequence` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\ny=3+4\\left(x-1\\right)\n\\left[1,5\\right]\n```\n\nTitik $x=1..5$: $3,7,11,15,19$ (jumlahnya $55$ — cocokkan Contoh 1).\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (cari a dan b):**\nSuku ke-2 barisan aritmetika adalah $7$, jumlah 5 suku pertama $55$. Tentukan $a$ dan $b$.\n$$\n\\begin{cases}\na+b=7\\\\\n\\frac{5}{2}(2a+4b)=55\n\\end{cases}\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Sederhanakan persamaan (2): bagi 5, kali 2 → $2a+4b=22$ → $a+2b=11$. Kurangkan dengan (1).\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $a+b=7$, $a+2b=11$.\n> Langkah 2: kurang: $b=4$, lalu $a=3$.\n> Langkah 3 (cek): $3+7+11+15+19=55$ ✅.\n> Jawaban: $\\boxed{a=3,\\ b=4}$\n\n**Contoh 2 (geometri cepat):**\nSuku pertama $2$, rasio $3$. Tentukan $U_5$.\n$$\nU_5 = 2\\cdot 3^{4}\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Pangkatnya $n-1=4$, bukan $5$ — jebakan klasik!\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> $U_5 = 2\\cdot 81 = 162$.\n> Jawaban: $\\boxed{162}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Pangkat geometri $n-1$ ditulis $n$ (meleset satu suku).\n- $S_n$ aritmetika: lupa dibagi 2.\n- $S_\\infty$ dipakai padahal $|r|\\ge 1$ (deretnya divergen!).\n\n## 6. Flashcard (Spaced Repetition)\n\nRumus $U_n, S_n$ aritmetika?::$U_n=a+(n-1)b$, $S_n=\\frac{n}{2}(2a+(n-1)b)$.\n\nRumus geometri + syarat tak hingga?::$U_n=ar^{n-1}$, $S_n=a\\frac{1-r^n}{1-r}$, $S_\\infty=\\frac{a}{1-r}$ hanya jika $|r|<1$.\n\n$a,b$ jika $U_2=7$, $S_5=55$?::$\\boxed{a=3,\\ b=4}$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Barisan-Deret-01-Aritmetika|Soal Barisan-Deret-01]] (⭐3, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Barisan_aritmetika\n- Wikipedia EN: https://en.wikipedia.org/wiki/Arithmetic_progression\n- Khan Academy: https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences\n- Brilliant: https://brilliant.org/wiki/arithmetic-progressions/\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=3+4\\left(x-1\\right)\n\\left[1,5\\right]"
+    ],
+    "flashcards": [
+     "Rumus $U_n, S_n$ aritmetika? :: $U_n=a+(n-1)b$, $S_n=\\frac{n}{2}(2a+(n-1)b)$.",
+     "Rumus geometri + syarat tak hingga? :: $U_n=ar^{n-1}$, $S_n=a\\frac{1-r^n}{1-r}$, $S_\\infty=\\frac{a}{1-r}$ hanya jika $|r|<1$.",
+     "$a,b$ jika $U_2=7$, $S_5=55$? :: $\\boxed{a=3,\\ b=4}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Fungsi-Kuadrat-Diskriminan",
+    "title": "📘 Fungsi Kuadrat — Diskriminan & Akar",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\02-Aljabar\\Fungsi-Kuadrat-Diskriminan.md",
+    "topic": "Fungsi Kuadrat",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aljabar]",
+    "excerpt": "📘 Fungsi Kuadrat — Diskriminan & Akar 1. Definisi Fungsi kuadrat adalah fungsi berderajat dua dengan satu variabel. 2. Teorema / Rumus Rumus abc dan diskriminan: x = \\frac{-b \\pm \\sqrt{D}}{2a}, \\qquad D = b^2-4ac Rumus turunan / kasus khusus: - D 0 → dua akar real berbeda (parabola memotong sumbu- x dua kali). - D = 0 → satu akar kembar x = -\\frac{b}{2a} (menyinggung sumbu- x ). - D < 0 → tidak ada akar real (melayang di atas/di bawah sumbu- x ). - Jumlah dan hasil kali akar: x_1+x_2 = -\\frac{b}{a} , x_1x_2 = \\frac{c}{a} . 3. Visual & Intuisi GeoGebra (interaktif — butuh internet) Geser a,b,c ",
+    "body": "# 📘 Fungsi Kuadrat — Diskriminan & Akar\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menentukan jenis akar dari diskriminan, mencari akar dengan pemfaktoran/rumus abc, dan menentukan syarat parameter (misal akar kembar).\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (pemfaktoran, pecahan).\n\n## 1. Definisi\n\nFungsi kuadrat adalah fungsi berderajat dua dengan satu variabel.\n\n> **Definisi formal:** $f(x) = ax^2+bx+c$ dengan $a \\neq 0$.\n> Akar (pembuat nol) adalah nilai $x$ sehingga $f(x)=0$ — secara geometri,\n> titik potong grafik parabola dengan sumbu-$x$.\n\n## 2. Teorema / Rumus\n\nRumus abc dan diskriminan:\n\n$$\nx = \\frac{-b \\pm \\sqrt{D}}{2a}, \\qquad D = b^2-4ac\n$$\n\nRumus turunan / kasus khusus:\n- $D > 0$ → dua akar real berbeda (parabola memotong sumbu-$x$ dua kali).\n- $D = 0$ → satu akar kembar $x = -\\frac{b}{2a}$ (menyinggung sumbu-$x$).\n- $D < 0$ → tidak ada akar real (melayang di atas/di bawah sumbu-$x$).\n- Jumlah dan hasil kali akar: $x_1+x_2 = -\\frac{b}{a}$, $x_1x_2 = \\frac{c}{a}$.\n\n## 3. Visual & Intuisi\n\n### GeoGebra (interaktif — butuh internet)\n\nGeser $a,b,c$ dan amati $D$ serta titik potong sumbu-$x$:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet parabola: geogebra.org/search → `quadratic discriminant` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\ny=x^2-7x+12\ny=0\n```\n\nAkar terlihat di titik potong kurva dengan garis $y=0$, yaitu $(3,0)$ dan $(4,0)$.\n\n### Excalidraw\n\nBuat sketsa tiga posisi parabola ($D>0$, $D=0$, $D<0$) → simpan di `99-Assets/Excalidraw/` → embed setelah file dibuat dengan kode `![[kuadrat-diskriminan]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (akar via pemfaktoran):**\nTentukan akar $x^2-7x+12=0$.\n$$\nx^2-7x+12 = (x-3)(x-4) = 0\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Cari dua bilangan yang jumlahnya $-7$ dan hasil kalinya $12$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $D = 49-48 = 1 > 0$ → dua akar real.\n> Langkah 2: $(x-3)(x-4)=0 \\Rightarrow x=3$ atau $x=4$.\n> Jawaban: $\\boxed{3\\text{ dan }4}$\n\n**Contoh 2 (syarat akar kembar):**\nTentukan $m$ agar $x^2+(m+1)x+9=0$ berakar kembar.\n$$\nD = (m+1)^2-36 = 0\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Akar kembar artinya $D=0$. Ekspansi $(m+1)^2$ lalu selesaikan.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $(m+1)^2 = 36 \\Rightarrow m+1 = \\pm 6$.\n> Langkah 2: $m = 5$ atau $m = -7$. Cek via SymPy ✅.\n> Jawaban: $\\boxed{5\\text{ dan }-7}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Lupa syarat $a \\neq 0$ (kalau $a=0$ jadi linear, bukan kuadrat).\n- Salah tanda di rumus abc ($-b$, bukan $b$).\n- Mengira $D=0$ berarti tidak ada akar (padahal ada: satu akar kembar).\n- Tidak mengecek $D$ dulu sebelum memfaktorkan (buang waktu jika $D<0$).\n\n## 6. Flashcard (Spaced Repetition)\n\nDiskriminan fungsi kuadrat?::$D = b^2-4ac$; $D>0$ dua akar, $D=0$ kembar, $D<0$ tak ada akar real.\n\nAkar $x^2-7x+12=0$?::$\\boxed{3\\text{ dan }4}$ karena $(x-3)(x-4)=0$.\n\n$m$ agar $x^2+(m+1)x+9=0$ kembar?::$\\boxed{5\\text{ dan }-7}$ dari $(m+1)^2=36$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Soal Fungsi Kuadrat-01]] (⭐3, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Fungsi_kuadrat\n- Wikipedia EN: https://en.wikipedia.org/wiki/Quadratic_function\n- Khan Academy: https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations\n- Brilliant: https://brilliant.org/wiki/quadratic-equations/\n- AoPS: https://artofproblemsolving.com/wiki/index.php/Quadratic_equation\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2-7x+12\ny=0"
+    ],
+    "flashcards": [
+     "Diskriminan fungsi kuadrat? :: $D = b^2-4ac$; $D>0$ dua akar, $D=0$ kembar, $D<0$ tak ada akar real.",
+     "Akar $x^2-7x+12=0$? :: $\\boxed{3\\text{ dan }4}$ karena $(x-3)(x-4)=0$.",
+     "$m$ agar $x^2+(m+1)x+9=0$ kembar? :: $\\boxed{5\\text{ dan }-7}$ dari $(m+1)^2=36$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Matriks-Determinan-Invers",
+    "title": "📘 Matriks 2×2 — Determinan & Invers",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\02-Aljabar\\Matriks-Determinan-Invers.md",
+    "topic": "Matriks",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aljabar]",
+    "excerpt": "📘 Matriks 2×2 — Determinan & Invers 1. Definisi 2. Teorema / Rumus A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}, \\qquad \\det A \\neq 0 Rumus turunan / kasus khusus: - Mnemonik invers: tukar diagonal utama, negasikan diagonal lain, bagi determinan . - \\det A = 0 → matriks singular , tidak punya invers. - SPLDV sebagai matriks: AX=B \\Rightarrow X = A^{-1}B . - \\det(AB) = \\det A\\cdot\\det B . 3. Visual & Intuisi Intuisi transformasi Matriks 2\\times 2 memetakan bidang: determinan = faktor pengali LUAS ( \\det=5 → tiap satuan luas jadi 5× lipat). Determinan negatif = ada pencerminan.",
+    "body": "# 📘 Matriks 2×2 — Determinan & Invers\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menghitung determinan 2×2, menentukan invers dengan rumus cepat, dan memakai invers untuk menyelesaikan SPLDV.\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] + [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV]] (invers menyelesaikan $AX=B$).\n\n## 1. Definisi\n\n> **Definisi formal:** Matriks $2\\times 2$ $A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$\n> punya determinan dan (jika determinan $\\neq 0$) invers:\n> $$\n> \\det A = ad-bc, \\qquad A^{-1} = \\frac{1}{\\det A}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\n> $$\n\n## 2. Teorema / Rumus\n\n$$\nA^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}, \\qquad \\det A \\neq 0\n$$\n\nRumus turunan / kasus khusus:\n- Mnemonik invers: **tukar diagonal utama, negasikan diagonal lain, bagi determinan**.\n- $\\det A = 0$ → matriks **singular**, tidak punya invers.\n- SPLDV sebagai matriks: $AX=B \\Rightarrow X = A^{-1}B$.\n- $\\det(AB) = \\det A\\cdot\\det B$.\n\n## 3. Visual & Intuisi\n\n### Intuisi transformasi\n\nMatriks $2\\times 2$ memetakan bidang: determinan = faktor pengali LUAS\n($\\det=5$ → tiap satuan luas jadi 5× lipat). Determinan negatif = ada pencerminan.\nInvers = \"undo\" transformasinya.\n\n### GeoGebra (interaktif — butuh internet)\n\nLihat efek matriks pada persegi satuan:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet: geogebra.org/search → `matrix transformation` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\n2x+y=5\n3x+4y=11\n```\n\nTitik potong $(1,2)$ = solusi $AX=B$ dengan $A=\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$ (lihat Contoh 2).\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (invers langsung):**\nTentukan invers $A=\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$.\n$$\n\\det A = 2\\cdot 4-1\\cdot 3 = 5\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Tukar 2 dan 4, negasikan 1 dan 3, bagi semua dengan determinan 5.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $\\det A = 8-3 = 5 \\neq 0$ → invers ada.\n> Langkah 2: $A^{-1} = \\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}$.\n> Jawaban: $\\boxed{\\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}}$\n\n**Contoh 2 (SPLDV via invers):**\nSelesaikan $\\begin{cases}x+2y=5\\\\3x+4y=11\\end{cases}$ dengan invers matriks.\n\n> [!hint]- Hint (klik untuk buka)\n> $A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$, $\\det A = 4-6=-2$. $X=A^{-1}B$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $A^{-1} = -\\frac{1}{2}\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}$.\n> Langkah 2: $\\begin{pmatrix}x\\\\y\\end{pmatrix} = -\\frac{1}{2}\\begin{pmatrix}4\\cdot 5-2\\cdot 11\\\\-3\\cdot 5+1\\cdot 11\\end{pmatrix} = -\\frac{1}{2}\\begin{pmatrix}-2\\\\-4\\end{pmatrix} = \\begin{pmatrix}1\\\\2\\end{pmatrix}$.\n> Jawaban: $\\boxed{(1,\\,2)}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Lupa membagi dengan determinan (atau membagi hanya satu entri).\n- Salah posisi negasi: yang dinegasikan diagonal SAMPING ($b,c$), bukan diagonal utama.\n- Menganggap semua matriks punya invers (cek $\\det \\neq 0$ dulu!).\n\n## 6. Flashcard (Spaced Repetition)\n\nRumus cepat invers 2×2?::Tukar diagonal utama, negasikan diagonal lain, bagi $\\det=ad-bc$.\n\nInvers $\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$?::$\\boxed{\\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}}$ karena $\\det=5$.\n\nSyarat matriks punya invers?::$\\boxed{\\det \\neq 0}$ (nonsingular).\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Matriks-01-Determinan-Invers|Soal Matriks-01]] (⭐3, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Matriks_(matematika)\n- Wikipedia EN: https://en.wikipedia.org/wiki/Matrix_(mathematics)\n- Khan Academy: https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices\n- Brilliant: https://brilliant.org/wiki/matrices/\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "2x+y=5\n3x+4y=11"
+    ],
+    "flashcards": [
+     "Rumus cepat invers 2×2? :: Tukar diagonal utama, negasikan diagonal lain, bagi $\\det=ad-bc$.",
+     "Invers $\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$? :: $\\boxed{\\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}}$ karena $\\det=5$.",
+     "Syarat matriks punya invers? :: $\\boxed{\\det \\neq 0}$ (nonsingular)."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Polinomial-Teorema-Sisa",
+    "title": "📘 Polinomial — Teorema Sisa & Faktor",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\02-Aljabar\\Polinomial-Teorema-Sisa.md",
+    "topic": "Polinomial",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aljabar]",
+    "excerpt": "📘 Polinomial — Teorema Sisa & Faktor 1. Definisi Suku banyak (polinomial) adalah jumlah suku berpangkat bulat taknegatif. 2. Teorema / Rumus Teorema sisa dan teorema faktor: \\text{Sisa } P(x)\\div(x-c)\\ =\\ P(c) (x-c)\\text{ faktor }P(x) \\iff P(c) = 0 Rumus turunan / kasus khusus: - Pembagi (ax-b) : sisa = P\\left(\\frac{b}{a}\\right) . - Teorema sisa hanya untuk pembagi linear ; pembagi berderajat ≥ 2 → pembagian panjang/sintetik. - Bukti 1 baris: substitusi x=c ke P(x)=(x-c)Q(x)+r → P(c) = 0\\cdot Q(c)+r . 3. Visual & Intuisi Intuisi nilai fungsi Sisa = \"nilai polinomial di titik pembuat-nol pembag",
+    "body": "# 📘 Polinomial — Teorema Sisa & Faktor\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menentukan sisa pembagian dengan teorema sisa (tanpa porogapit panjang), menguji faktor dengan teorema faktor, dan mencari koefisien yang belum diketahui.\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (pangkat, pemfaktoran).\n\n## 1. Definisi\n\nSuku banyak (polinomial) adalah jumlah suku berpangkat bulat taknegatif.\n\n> **Definisi formal:** $P(x) = a_nx^n+\\dots+a_1x+a_0$.\n> Pembagian $P(x)$ oleh $(x-c)$ selalu bisa ditulis:\n> $$\n> P(x) = (x-c)\\cdot Q(x) + r\n> $$\n> dengan $Q(x)$ hasil bagi dan $r$ sisa (konstanta).\n\n## 2. Teorema / Rumus\n\nTeorema sisa dan teorema faktor:\n\n$$\n\\text{Sisa } P(x)\\div(x-c)\\ =\\ P(c)\n$$\n\n$$\n(x-c)\\text{ faktor }P(x) \\iff P(c) = 0\n$$\n\nRumus turunan / kasus khusus:\n- Pembagi $(ax-b)$: sisa $= P\\left(\\frac{b}{a}\\right)$.\n- Teorema sisa hanya untuk pembagi **linear**; pembagi berderajat ≥ 2 → pembagian panjang/sintetik.\n- Bukti 1 baris: substitusi $x=c$ ke $P(x)=(x-c)Q(x)+r$ → $P(c) = 0\\cdot Q(c)+r$.\n\n## 3. Visual & Intuisi\n\n### Intuisi nilai fungsi\n\nSisa = \"nilai polinomial di titik pembuat-nol pembagi\". Pembagi $(x-2)$ nol di $x=2$,\njadi sisa = $P(2)$. Di grafik, itu tinggi kurva tepat di atas $x=2$.\n\n### GeoGebra (interaktif — butuh internet)\n\nGeser titik $x=c$, amati $P(c)$ = sisa:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet: geogebra.org/search → `polynomial remainder` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\ny=2x^3+2x^2+2x-6\n\\left(1,0\\right)\n\\left(-1,-8\\right)\n```\n\nTitik $(1,0)$ = habis dibagi $(x-1)$; titik $(-1,-8)$ = sisa $-8$ dibagi $(x+1)$.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (sisa langsung):**\nTentukan sisa $(x^3-2x^2+3)$ dibagi $(x-2)$.\n$$\nS = P(2) = 2^3-2\\cdot 2^2+3\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Tak perlu porogapit — langsung hitung $P(2)$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $P(2) = 8-8+3 = 3$.\n> Jawaban: $\\boxed{3}$\n\n**Contoh 2 (cari koefisien):**\n$P(x)=2x^3+ax^2+bx-6$ habis dibagi $(x-1)$ dan bersisa $-8$ dibagi $(x+1)$. Tentukan $a+b$.\n$$\nP(1)=0,\\qquad P(-1)=-8\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> $P(1)=2+a+b-6=0$ langsung memberi $a+b$. Persamaan kedua memastikan $a,b$ ada.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $a+b-4=0 \\Rightarrow a+b=4$.\n> Langkah 2: $P(-1)=-2+a-b-6=-8 \\Rightarrow a-b=0 \\Rightarrow a=b=2$ ✅ konsisten.\n> Jawaban: $\\boxed{4}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Memakai teorema sisa untuk pembagi kuadrat (misal $(x^2-1)$) — tidak berlaku!\n- Salah tanda: pembagi $(x+1)$ artinya $c=-1$, bukan $1$.\n- Lupa bahwa \"habis dibagi\" = sisa NOL, bukan sisa tidak ada.\n\n## 6. Flashcard (Spaced Repetition)\n\nTeorema sisa untuk pembagi (x-c)?::Sisa $= P(c)$; bukti: substitusi $x=c$ ke $P(x)=(x-c)Q(x)+r$.\n\nKapan (x-c) faktor P(x)?::Saat $P(c)=0$ (teorema faktor).\n\nSisa $(x^3-2x^2+3)$ dibagi $(x-2)$?::$\\boxed{3}$ karena $P(2)=8-8+3$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Polinomial-01-Teorema-Sisa|Soal Polinomial-01]] (⭐4, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Khan Academy (bukti): https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly-div/x2ec2f6f830c9fb89:remainder-theorem/v/polynomial-remainder-theorem-proof\n- Khan Academy (latihan): https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly-div/x2ec2f6f830c9fb89:remainder-theorem/e/remainder-theorem-and-factors\n- Wolfram MathWorld: https://mathworld.wolfram.com/PolynomialRemainderTheorem.html\n- MathsIsFun: https://www.mathsisfun.com/algebra/polynomials-remainder-factor.html\n- Wikipedia ID: https://id.wikipedia.org/wiki/Suku_banyak\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=2x^3+2x^2+2x-6\n\\left(1,0\\right)\n\\left(-1,-8\\right)"
+    ],
+    "flashcards": [
+     "Teorema sisa untuk pembagi (x-c)? :: Sisa $= P(c)$; bukti: substitusi $x=c$ ke $P(x)=(x-c)Q(x)+r$.",
+     "Kapan (x-c) faktor P(x)? :: Saat $P(c)=0$ (teorema faktor).",
+     "Sisa $(x^3-2x^2+3)$ dibagi $(x-2)$? :: $\\boxed{3}$ karena $P(2)=8-8+3$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "SPLDV-Eliminasi-Substitusi",
+    "title": "📘 SPLDV — Eliminasi & Substitusi",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\02-Aljabar\\SPLDV-Eliminasi-Substitusi.md",
+    "topic": "SPLDV",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, aljabar]",
+    "excerpt": "📘 SPLDV — Eliminasi & Substitusi 1. Definisi Sistem Persamaan Linear Dua Variabel (SPLDV) adalah dua persamaan linear dengan dua variabel yang sama, yang harus dipenuhi bersamaan . 2. Teorema / Rumus Metode determinan (aturan Cramer) — solusi tunggal ada jika dan hanya jika: D = a_1b_2-a_2b_1 \\neq 0 \\quad\\Longrightarrow\\quad x = \\frac{c_1b_2-c_2b_1}{D},\\;\\; y = \\frac{a_1c_2-a_2c_1}{D} Rumus turunan / kasus khusus: - D \\neq 0 → tepat satu solusi (dua garis berpotongan). - D = 0 dan \\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2} → solusi tak hingga (garis berimpit). - D = 0 tapi rasio c beda → ",
+    "body": "# 📘 SPLDV — Eliminasi & Substitusi\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menulis SPLDV dalam bentuk baku, menyelesaikan dengan eliminasi / substitusi / campuran, menangani koefisien pecahan, dan menentukan jenis solusi (tunggal / tak hingga / tidak ada).\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (operasi pecahan, distributif).\n\n## 1. Definisi\n\nSistem Persamaan Linear Dua Variabel (SPLDV) adalah dua persamaan linear dengan dua variabel yang sama, yang harus dipenuhi **bersamaan**.\n\n> **Definisi formal:** SPLDV berbentuk\n> $$\n> \\begin{cases}\n> a_1x+b_1y=c_1\\\\\n> a_2x+b_2y=c_2\n> \\end{cases}\n> $$\n> dengan $a_i,b_i,c_i$ konstanta. Solusinya adalah pasangan $(x,y)$ yang memenuhi **kedua** persamaan sekaligus — secara geometri, titik potong dua garis.\n\n## 2. Teorema / Rumus\n\nMetode determinan (aturan Cramer) — solusi tunggal ada jika dan hanya jika:\n\n$$\nD = a_1b_2-a_2b_1 \\neq 0 \\quad\\Longrightarrow\\quad\nx = \\frac{c_1b_2-c_2b_1}{D},\\;\\; y = \\frac{a_1c_2-a_2c_1}{D}\n$$\n\nRumus turunan / kasus khusus:\n- $D \\neq 0$ → tepat **satu** solusi (dua garis berpotongan).\n- $D = 0$ dan $\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}$ → solusi **tak hingga** (garis berimpit).\n- $D = 0$ tapi rasio $c$ beda → **tidak ada** solusi (garis sejajar).\n- Pecahan: kalikan persamaan dengan KPK penyebut dulu agar koefisien bulat.\n\n## 3. Visual & Intuisi\n\n### GeoGebra (interaktif — butuh internet)\n\nGeser garis dan amati titik potongnya:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet interseksi garis: geogebra.org/search → `system of linear equations intersection` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\n2x+3y=12\nx-y=1\n```\n\nEkspresi titik potong: `(3,2)`. Untuk sistem lain, ketik kedua persamaan lalu klik titik potongnya.\n\n### Excalidraw\n\nBuat sketsa dua garis berpotongan + label $(x,y)$ → simpan di `99-Assets/Excalidraw/` sebagai `spldv-intersection.excalidraw` → setelah file dibuat, embed dengan kode `![[spldv-intersection]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (campuran substitusi):**\nDiketahui $\\begin{cases}2x+3y=12\\\\x-y=1\\end{cases}$. Tentukan $(x,y)$.\n$$\nx = y+1 \\Rightarrow 2(y+1)+3y=12 \\Rightarrow 5y=10\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Dari persamaan (2), $x$ sudah hampir terisolasi: $x=y+1$. Substitusi ke (1).\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $x = y+1$.\n> Langkah 2: $2(y+1)+3y=12 \\Rightarrow 5y=10 \\Rightarrow y=2$.\n> Langkah 3: $x = 2+1 = 3$. Cek: $2(3)+3(2)=12$ ✅, $3-2=1$ ✅.\n> Jawaban: $\\boxed{(3,\\,2)}$\n\n**Contoh 2 (pecahan — eliminasi setelah KPK):**\nDiketahui $\\begin{cases}\\frac{x}{2}+\\frac{y}{3}=4\\\\x-\\frac{y}{2}=1\\end{cases}$. Tentukan $(x,y)$.\n$$\n(1)\\times 6:\\; 3x+2y=24 \\qquad (2)\\times 2:\\; 2x-y=2\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Bersihkan pecahan dulu dengan KPK penyebut (6 dan 2). Baru eliminasi $y$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $3x+2y=24$, $2x-y=2 \\Rightarrow y=2x-2$.\n> Langkah 2: $3x+2(2x-2)=24 \\Rightarrow 7x=28 \\Rightarrow x=4$.\n> Langkah 3: $y=2(4)-2=6$. Cek: $\\frac{4}{2}+\\frac{6}{3}=4$ ✅, $4-\\frac{6}{2}=1$ ✅.\n> Jawaban: $\\boxed{(4,\\,6)}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Mengalikan hanya satu sisi persamaan saat eliminasi (semua suku harus dikali).\n- Salah tanda saat mengurangkan persamaan (tulis ulang dengan kurung dulu).\n- Tidak membersihkan pecahan dulu → aritmetika berantakan (kalikan KPK penyebut di awal).\n- Lupa cek balik substitusi ke **kedua** persamaan.\n- Mengira $D=0$ selalu berarti tidak ada solusi (bisa juga tak hingga — cek rasio $c$).\n\n## 6. Flashcard (Spaced Repetition)\n\nSyarat SPLDV punya tepat satu solusi?::$D = a_1b_2-a_2b_1 \\neq 0$ (dua garis berpotongan).\n\nLangkah pertama SPLDV berpecahan?::Kalikan tiap persamaan dengan KPK penyebutnya agar koefisien bulat.\n\nSolusi $\\begin{cases}2x+3y=12\\\\x-y=1\\end{cases}$?::$\\boxed{(3,2)}$ via $x=y+1$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|Soal SPLDV-01]] + 5 variasinya (⭐1–⭐5, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Sistem_persamaan_linear\n- Wikipedia EN: https://en.wikipedia.org/wiki/System_of_linear_equations\n- Khan Academy: https://www.khanacademy.org/math/algebra-basics/alg-basics-systems-of-equations\n- Brilliant: https://brilliant.org/wiki/system-of-linear-equations/\n- AoPS: https://artofproblemsolving.com/wiki/index.php/System_of_equations\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "2x+3y=12\nx-y=1"
+    ],
+    "flashcards": [
+     "Syarat SPLDV punya tepat satu solusi? :: $D = a_1b_2-a_2b_1 \\neq 0$ (dua garis berpotongan).",
+     "Langkah pertama SPLDV berpecahan? :: Kalikan tiap persamaan dengan KPK penyebutnya agar koefisien bulat.",
+     "Solusi $\\begin{cases}2x+3y=12\\\\x-y=1\\end{cases}$? :: $\\boxed{(3,2)}$ via $x=y+1$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Luas-Persegi",
+    "title": "📘 Luas Persegi",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\03-Geometri\\Luas-Persegi.md",
+    "topic": "Luas Persegi",
+    "level": "SMP",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, geometri]",
+    "excerpt": "📘 Luas Persegi 1. Definisi 2. Teorema / Rumus s = \\sqrt{L}, \\qquad d = s\\sqrt{2} dengan d diagonal persegi (dari [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]: d^2=s^2+s^2 ). 3. Visual & Intuisi Petak satuan 1\\times 1 : persegi 5\\times 5 memuat tepat 25 petak. Bukti visual Pythagoras memakai persegi di tiap sisi segitiga — lihat [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] section 3. 4. Contoh Worked Example Contoh 1: Persegi luasnya 169 . Tentukan sisi dan diagonalnya. 5. Kesalahan Umum ⚠️ - Tertukar luas ( s^2 ) dengan keliling ( 4s ). - Menulis satuan luas",
+    "body": "# 📘 Luas Persegi\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: menghitung luas dan keliling persegi, serta mencari sisi dari luas yang diketahui (kebalikan: [[Akar-Kuadrat|Akar Kuadrat]]).\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] (pangkat dua).\n\n## 1. Definisi\n\n> **Definisi formal:** Persegi bersisi $s$ punya luas dan keliling:\n> $$\n> L = s^2, \\qquad K = 4s\n> $$\n\n## 2. Teorema / Rumus\n\n$$\ns = \\sqrt{L}, \\qquad d = s\\sqrt{2}\n$$\n\ndengan $d$ diagonal persegi (dari [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]: $d^2=s^2+s^2$).\n\n## 3. Visual & Intuisi\n\nPetak satuan $1\\times 1$: persegi $5\\times 5$ memuat tepat $25$ petak.\nBukti visual Pythagoras memakai persegi di tiap sisi segitiga —\nlihat [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] section 3.\n\n```desmos-graph\ny=x^2\ny=25\n```\n\n## 4. Contoh Worked Example\n\n**Contoh 1:** Persegi luasnya $169$. Tentukan sisi dan diagonalnya.\n\n> [!hint]- Hint (klik untuk buka)\n> Sisi = akar dari luas. Diagonal = sisi $\\times\\sqrt{2}$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $s = \\sqrt{169} = 13$.\n> Langkah 2: $d = 13\\sqrt{2}$.\n> Jawaban: $\\boxed{s=13,\\ d=13\\sqrt{2}}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Tertukar luas ($s^2$) dengan keliling ($4s$).\n- Menulis satuan luas sebagai cm (harus cm²).\n\n## 6. Flashcard (Spaced Repetition)\n\nLuas persegi sisi s?::$\\boxed{L=s^2}$, keliling $\\boxed{K=4s}$.\n\nSisi persegi luas 169?::$\\boxed{13}$ karena $\\sqrt{169}=13$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Persegi\n- Brilliant: https://brilliant.org/wiki/area-of-a-square/\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[Akar-Kuadrat|Akar Kuadrat]] • [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]\n",
+    "visuals": [],
+    "desmos": [
+     "y=x^2\ny=25"
+    ],
+    "flashcards": [
+     "Luas persegi sisi s? :: $\\boxed{L=s^2}$, keliling $\\boxed{K=4s}$.",
+     "Sisi persegi luas 169? :: $\\boxed{13}$ karena $\\sqrt{169}=13$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Pythagoras-Visual-GeoGebra",
+    "title": "📘 Teorema Pythagoras + Visual GeoGebra",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\03-Geometri\\Pythagoras-Visual-GeoGebra.md",
+    "topic": "Pythagoras",
+    "level": "SMP",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, geometri]",
+    "excerpt": "📘 Teorema Pythagoras + Visual GeoGebra 1. Definisi Pada segitiga siku-siku dengan kaki a, b dan sisi miring (hipotenusa) c : 2. Teorema / Rumus a^2 + b^2 = c^2 \\quad \\Longleftrightarrow \\quad c = \\sqrt{a^2+b^2} Varian pemakaian: - a = \\sqrt{c^2-b^2} - b = \\sqrt{c^2-a^2} - Tripel populer: (3,4,5) , (5,12,13) , (8,15,17) , (7,24,25) , kelipatannya. 3. Visual & Intuisi Bukti visual (diseksi persegi) Luas persegi besar (a+b)^2 = 4 segitiga \\frac{ab}{2} + persegi miring c^2 : (a+b)^2 = 4\\cdot\\frac{ab}{2} + c^2 \\Rightarrow a^2+2ab+b^2 = 2ab+c^2 \\Rightarrow a^2+b^2=c^2 \\quad \\blacksquare GeoGebra (in",
+    "body": "# 📘 Teorema Pythagoras + Visual GeoGebra\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa membuktikan $a^2+b^2=c^2$, menghitung sisi miring/siku, dan mengenali tripel Pythagoras.\n> Prasyarat: luas persegi, akar kuadrat.\n\n## 1. Definisi\n\nPada segitiga **siku-siku** dengan kaki $a, b$ dan sisi miring (hipotenusa) $c$:\n\n> **Teorema Pythagoras:** kuadrat sisi miring = jumlah kuadrat kedua kaki.\n\n## 2. Teorema / Rumus\n\n$$\na^2 + b^2 = c^2 \\quad \\Longleftrightarrow \\quad c = \\sqrt{a^2+b^2}\n$$\n\nVarian pemakaian:\n- $a = \\sqrt{c^2-b^2}$\n- $b = \\sqrt{c^2-a^2}$\n- Tripel populer: $(3,4,5)$, $(5,12,13)$, $(8,15,17)$, $(7,24,25)$, kelipatannya.\n\n## 3. Visual & Intuisi\n\n### Bukti visual (diseksi persegi)\nLuas persegi besar $(a+b)^2$ = 4 segitiga $\\frac{ab}{2}$ + persegi miring $c^2$:\n$$\n(a+b)^2 = 4\\cdot\\frac{ab}{2} + c^2 \\Rightarrow a^2+2ab+b^2 = 2ab+c^2 \\Rightarrow a^2+b^2=c^2 \\quad \\blacksquare\n$$\n\n### GeoGebra (interaktif — butuh internet)\nGeser titik segitiga, amati $a^2+b^2$ selalu = $c^2$:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet bukti diseksi: geogebra.org/search → `pythagoras proof dissection` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n```desmos-graph\ny=3\ny=4\n```\n\nEkspresi segitiga 3-4-5 di Desmos (polygon): `P_1=(0,0)`, `P_2=(4,0)`, `P_3=(0,3)`.\n\n### Excalidraw\nBuat sketsa segitiga + persegi di sisi tiap sisi → simpan di `99-Assets/Excalidraw/` → embed `![[pythagoras.excalidraw]]`.\n\n## 4. Contoh Worked Example\n\n**Contoh 1:** Kaki $a=6$, $b=8$. Tentukan $c$.\n$$\nc = \\sqrt{6^2+8^2} = \\sqrt{36+64} = \\sqrt{100} = 10\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Kuadratkan dulu kedua kaki, jumlahkan, baru akarkan. $6^2=?$, $8^2=?$\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $6^2=36$, $8^2=64$.\n> Langkah 2: $36+64=100$.\n> Langkah 3: $\\sqrt{100}=10$.\n> Jawaban: $\\boxed{10}$\n\n**Contoh 2 (kebalikan):** $c=13$, $a=5$. Tentukan $b$.\n$$\nb = \\sqrt{c^2-a^2} = \\sqrt{169-25} = \\sqrt{144} = 12\n$$\n\n## 5. Kesalahan Umum ⚠️\n\n- Mengira $c = a+b$ (lupa kuadrat + akar).\n- Menukar kaki dengan sisi miring: sisi miring selalu **terpanjang & di depan sudut siku**.\n- Lupa satuan / tidak cek tripel dulu (bisa hemat waktu).\n\n## 6. Flashcard (Spaced Repetition — tekan review)\n\nTeorema Pythagoras menyatakan?::Dalam segitiga siku-siku, $a^2 + b^2 = c^2$ dengan $c$ sisi miring.\n\nSisi miring segitiga 6-8-?::$c = \\sqrt{36+64} = 10$.\n\nTripel Pythagoras dengan 5-?-13?::$(5,12,13)$ karena $25+144=169$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Pythagoras\") OR contains(topik, \"SPLDV\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|Soal SPLDV]] (latihan aljabar pendamping).\n\n## 8. Referensi\n\n- Wikipedia: https://id.wikipedia.org/wiki/Teorema_Pythagoras\n- Khan Academy: https://www.khanacademy.org/math/geometry/pythagorean-theorem\n- Brilliant: https://brilliant.org/wiki/pythagorean-theorem/\n- AoPS: https://artofproblemsolving.com/wiki/index.php/Pythagorean_Theorem\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Geometri-Trigonometri|Rumus Geometri]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=3\ny=4"
+    ],
+    "flashcards": [
+     "Teorema Pythagoras menyatakan? :: Dalam segitiga siku-siku, $a^2 + b^2 = c^2$ dengan $c$ sisi miring.",
+     "Sisi miring segitiga 6-8-? :: $c = \\sqrt{36+64} = 10$.",
+     "Tripel Pythagoras dengan 5-?-13? :: $(5,12,13)$ karena $25+144=169$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Identitas-Trigonometri",
+    "title": "📘 Identitas Trigonometri Dasar",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\04-Trigonometri\\Identitas-Trigonometri.md",
+    "topic": "Trigonometri",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, trigonometri]",
+    "excerpt": "📘 Identitas Trigonometri Dasar 1. Definisi Pada segitiga siku-siku dengan sudut lancip x , sisi depan d , sisi samping s , sisi miring m : 2. Teorema / Rumus Identitas Pythagoras (identitas paling penting): \\sin^2x+\\cos^2x = 1 Rumus turunan: - \\tan x = \\dfrac{\\sin x}{\\cos x} , \\cot x = \\dfrac{1}{\\tan x} . - 1+\\tan^2x = \\sec^2x (bagi identitas Pythagoras dengan \\cos^2x ). - 1+\\cot^2x = \\csc^2x (bagi dengan \\sin^2x ). - Tanda per kuadran: ASTC — All (I), Sin (II), Tan (III), Cos (IV) positif. 3. Visual & Intuisi Bukti visual (Pythagoras di lingkaran satuan) Titik (\\cos x, \\sin x) pada lingkaran ",
+    "body": "# 📘 Identitas Trigonometri Dasar\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: membuktikan $\\sin^2x+\\cos^2x=1$ dari Pythagoras, memakai $\\tan x = \\frac{\\sin x}{\\cos x}$, dan menentukan perbandingan trigonometri dari satu nilai yang diketahui.\n> Prasyarat: [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] + [[40-Bank-Rumus/Rumus-Geometri-Trigonometri|Rumus Geometri-Trigonometri]].\n\n## 1. Definisi\n\nPada segitiga siku-siku dengan sudut lancip $x$, sisi depan $d$, sisi samping $s$, sisi miring $m$:\n\n> **Definisi formal:**\n> $$\n> \\sin x = \\frac{d}{m}, \\qquad \\cos x = \\frac{s}{m}, \\qquad \\tan x = \\frac{d}{s} = \\frac{\\sin x}{\\cos x}\n> $$\n\n## 2. Teorema / Rumus\n\nIdentitas Pythagoras (identitas paling penting):\n\n$$\n\\sin^2x+\\cos^2x = 1\n$$\n\nRumus turunan:\n- $\\tan x = \\dfrac{\\sin x}{\\cos x}$, $\\cot x = \\dfrac{1}{\\tan x}$.\n- $1+\\tan^2x = \\sec^2x$ (bagi identitas Pythagoras dengan $\\cos^2x$).\n- $1+\\cot^2x = \\csc^2x$ (bagi dengan $\\sin^2x$).\n- Tanda per kuadran: ASTC — All (I), Sin (II), Tan (III), Cos (IV) positif.\n\n## 3. Visual & Intuisi\n\n### Bukti visual (Pythagoras di lingkaran satuan)\n\nTitik $(\\cos x, \\sin x)$ pada lingkaran satuan berjarak 1 dari pusat, jadi menurut [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]: $\\cos^2x+\\sin^2x = 1^2$. Identitas ini dosis harian trigonometri.\n\n### GeoGebra (interaktif — butuh internet)\n\nPutar titik pada lingkaran satuan, amati $\\sin^2+\\cos^2$ tetap 1:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet lingkaran satuan: geogebra.org/search → `unit circle sine cosine` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\nx^2+y^2=1\ny=\\sin\\left(\\frac{\\pi}{6}\\right)\n```\n\nGaris horizontal $y=\\frac{1}{2}$ memotong lingkaran di sudut $30^\\circ$ dan $150^\\circ$.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (lengkapi dari sin):**\nJika $\\sin x = \\frac{5}{13}$ dengan $x$ lancip, tentukan $\\cos x$ dan $\\tan x$.\n$$\n\\cos^2x = 1-\\sin^2x = 1-\\frac{25}{169} = \\frac{144}{169}\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Pakai identitas Pythagoras. Karena $x$ lancip, $\\cos x$ positif — ambil akar positif.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $\\cos x = \\sqrt{\\frac{144}{169}} = \\frac{12}{13}$ (positif, kuadran I).\n> Langkah 2: $\\tan x = \\frac{5/13}{12/13} = \\frac{5}{12}$.\n> Jawaban: $\\boxed{\\cos x = \\frac{12}{13},\\ \\tan x = \\frac{5}{12}}$\n\n**Contoh 2 (menyederhanakan):**\nSederhanakan $\\tan x \\cdot \\cos x$.\n$$\n\\tan x \\cdot \\cos x = \\frac{\\sin x}{\\cos x}\\cdot\\cos x\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Tulis $\\tan x$ sebagai $\\frac{\\sin x}{\\cos x}$, lalu coret $\\cos x$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $\\frac{\\sin x}{\\cos x}\\cdot\\cos x = \\sin x$ (syarat $\\cos x \\neq 0$).\n> Jawaban: $\\boxed{\\sin x}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Lupa menyaring tanda: $\\cos x = \\pm\\sqrt{1-\\sin^2x}$ — pilih tanda sesuai kuadran!\n- Menulis $\\sin^2x$ sebagai $\\sin x^2$ (artinya beda: $(\\sin x)^2$ vs $\\sin(x^2)$).\n- Membagi dengan $\\cos x$ tanpa syarat $\\cos x \\neq 0$.\n- Menghafal tanpa lingkaran satuan → cepat lupa tanda kuadran.\n\n## 6. Flashcard (Spaced Repetition)\n\nIdentitas Pythagoras trigonometri?::$\\sin^2x+\\cos^2x=1$ (dari lingkaran satuan + teorema Pythagoras).\n\n$\\tan x$ dalam $\\sin,\\cos$?::$\\tan x = \\frac{\\sin x}{\\cos x}$ dengan syarat $\\cos x \\neq 0$.\n\nJika $\\sin x=\\frac{5}{13}$ lancip, $\\cos x$?::$\\boxed{\\frac{12}{13}}$ karena $1-\\frac{25}{169}=\\frac{144}{169}$.\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Soal Trigonometri-01]] (⭐3, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Trigonometri\n- Wikipedia EN: https://en.wikipedia.org/wiki/Trigonometric_functions\n- Khan Academy: https://www.khanacademy.org/math/trigonometry\n- Brilliant: https://brilliant.org/wiki/trigonometric-identities/\n- AoPS: https://artofproblemsolving.com/wiki/index.php/Trigonometry\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Geometri-Trigonometri|Rumus Geometri]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "x^2+y^2=1\ny=\\sin\\left(\\frac{\\pi}{6}\\right)"
+    ],
+    "flashcards": [
+     "Identitas Pythagoras trigonometri? :: $\\sin^2x+\\cos^2x=1$ (dari lingkaran satuan + teorema Pythagoras).",
+     "$\\tan x$ dalam $\\sin,\\cos$? :: $\\tan x = \\frac{\\sin x}{\\cos x}$ dengan syarat $\\cos x \\neq 0$.",
+     "Jika $\\sin x=\\frac{5}{13}$ lancip, $\\cos x$? :: $\\boxed{\\frac{12}{13}}$ karena $1-\\frac{25}{169}=\\frac{144}{169}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Limit-Fungsi-Aljabar",
+    "title": "📘 Limit Fungsi Aljabar — Bentuk 0/0",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\05-Kalkulus\\Limit-Fungsi-Aljabar.md",
+    "topic": "Limit",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review, kalkulus]",
+    "excerpt": "📘 Limit Fungsi Aljabar — Bentuk 0/0 1. Definisi Limit menggambarkan nilai yang DIDEKATI fungsi saat x mendekati suatu titik — walaupun fungsinya sendiri mungkin tak terdefinisi di titik itu. 2. Teorema / Rumus Strategi standar bentuk \\frac{0}{0} : \\lim_{x\\to c}\\frac{f(x)}{g(x)}\\ \\text{dengan}\\ f(c)=g(c)=0 \\ \\Longrightarrow\\ \\text{faktorkan, coret }(x-c),\\ \\text{lalu substitusi} Rumus turunan / kasus khusus: - Substitusi langsung dulu — jika tidak \\frac{0}{0} , selesai. - Selisih kuadrat: a^2-b^2 = (a-b)(a+b) . - Selisih kubik: a^3-b^3 = (a-b)(a^2+ab+b^2) . - Limit kiri = limit kanan = L → limi",
+    "body": "# 📘 Limit Fungsi Aljabar — Bentuk 0/0\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa: mengenali bentuk tak tentu $\\frac{0}{0}$, menyelesaikannya dengan pemfaktoran, dan mengecek hasilnya dengan substitusi.\n> Prasyarat: [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] + [[10-Teori/02-Aljabar/Fungsi-Kuadrat-Diskriminan|Fungsi Kuadrat]] (pemfaktoran).\n\n## 1. Definisi\n\nLimit menggambarkan nilai yang DIDEKATI fungsi saat $x$ mendekati suatu titik — walaupun fungsinya sendiri mungkin tak terdefinisi di titik itu.\n\n> **Definisi formal (intuitif):** $\\lim_{x \\to c} f(x) = L$ artinya $f(x)$\n> semakin dekat ke $L$ saat $x$ semakin dekat ke $c$ (dari kiri maupun kanan).\n\n## 2. Teorema / Rumus\n\nStrategi standar bentuk $\\frac{0}{0}$:\n\n$$\n\\lim_{x\\to c}\\frac{f(x)}{g(x)}\\ \\text{dengan}\\ f(c)=g(c)=0\n\\ \\Longrightarrow\\ \\text{faktorkan, coret }(x-c),\\ \\text{lalu substitusi}\n$$\n\nRumus turunan / kasus khusus:\n- Substitusi langsung dulu — jika tidak $\\frac{0}{0}$, selesai.\n- Selisih kuadrat: $a^2-b^2 = (a-b)(a+b)$.\n- Selisih kubik: $a^3-b^3 = (a-b)(a^2+ab+b^2)$.\n- Limit kiri = limit kanan = $L$ → limit ada.\n\n## 3. Visual & Intuisi\n\n### Intuisi lubang (hole)\n\n$f(x)=\\frac{x^2-1}{x-1}$ tak terdefinisi di $x=1$, tapi untuk $x \\neq 1$ ia sama persis dengan garis $y=x+1$. Limitnya = nilai garis di titik itu: $2$. Grafiknya garis utuh + satu lubang di $(1,2)$.\n\n### GeoGebra (interaktif — butuh internet)\n\nZoom ke titik lubang, amati nilai pendekatan dari kiri-kanan:\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n> Cari applet limit: geogebra.org/search → `limit hole function` → salin ID → ganti `src` di atas. Katalog: [[99-Assets/GeoGebra/README|Index GeoGebra]].\n\n### Desmos (cepat, tanpa login)\n\n```desmos-graph\ny=\\frac{x^2-1}{x-1}\ny=2\n```\n\nGaris putus di $(1,2)$ — limitnya tetap $2$ walau fungsinya bolong di sana.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1 (faktor kuadrat):**\nTentukan $\\lim_{x\\to 1}\\frac{x^2-1}{x-1}$.\n$$\n\\frac{x^2-1}{x-1} = \\frac{(x-1)(x+1)}{x-1} = x+1 \\quad (x \\neq 1)\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> Substitusi langsung memberi $\\frac{0}{0}$. Faktorkan pembilang (selisih kuadrat), coret $(x-1)$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: bentuk $\\frac{0}{0}$ → faktorkan: $\\frac{(x-1)(x+1)}{x-1}$.\n> Langkah 2: coret $(x-1)$, sisa $x+1$ → substitusi $x=1$: $2$.\n> Jawaban: $\\boxed{2}$\n\n**Contoh 2 (faktor kubik):**\nTentukan $\\lim_{x\\to 2}\\frac{x^3-8}{x-2}$.\n$$\nx^3-8 = (x-2)(x^2+2x+4)\n$$\n\n> [!hint]- Hint (klik untuk buka)\n> $8 = 2^3$. Pakai selisih kubik $a^3-b^3$, lalu coret $(x-2)$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Langkah 1: $\\frac{(x-2)(x^2+2x+4)}{x-2} = x^2+2x+4$.\n> Langkah 2: substitusi $x=2$: $4+4+4=12$. Cek via SymPy ✅.\n> Jawaban: $\\boxed{12}$\n\n## 5. Kesalahan Umum ⚠️\n\n- Mencoret $(x-c)$ SEBELUM memfaktorkan (coret suku, bukan faktor!).\n- Lupa cek substitusi langsung dulu (ada soal yang langsung selesai).\n- Menulis limit = \"tidak ada\" hanya karena penyebut nol (cek dulu, bisa jadi $\\frac{0}{0}$ yang terfaktor).\n- Salah faktor kubik: $a^3-b^3 \\neq (a-b)^3$.\n\n## 6. Flashcard (Spaced Repetition)\n\nLangkah pertama limit bentuk 0/0?::Faktorkan pembilang–penyebut, coret faktor $(x-c)$ yang sama, lalu substitusi.\n\n$\\lim_{x\\to 1}\\frac{x^2-1}{x-1}$?::$\\boxed{2}$ karena $=\\lim_{x\\to 1}(x+1)$.\n\nFaktor $x^3-8$?::$\\boxed{(x-2)(x^2+2x+4)}$ (selisih kubik).\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, this.topik) OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\nCoba dulu: [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Soal Limit-01]] (⭐3, jawaban terverifikasi SymPy).\n\n## 8. Referensi\n\n- Wikipedia ID: https://id.wikipedia.org/wiki/Limit_fungsi\n- Wikipedia EN: https://en.wikipedia.org/wiki/Limit_of_a_function\n- Khan Academy: https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new\n- Brilliant: https://brilliant.org/wiki/limits-of-functions/\n- AoPS: https://artofproblemsolving.com/wiki/index.php/Limit\n\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=\\frac{x^2-1}{x-1}\ny=2"
+    ],
+    "flashcards": [
+     "Langkah pertama limit bentuk 0/0? :: Faktorkan pembilang–penyebut, coret faktor $(x-c)$ yang sama, lalu substitusi.",
+     "$\\lim_{x\\to 1}\\frac{x^2-1}{x-1}$? :: $\\boxed{2}$ karena $=\\lim_{x\\to 1}(x+1)$.",
+     "Faktor $x^3-8$? :: $\\boxed{(x-2)(x^2+2x+4)}$ (selisih kubik)."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Peluang-Kaidah-Cacah",
+    "title": "🎲 Kaidah Cacah & Peluang (Fokus UTBK)",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\06-Statistika-Probabilitas\\Peluang-Kaidah-Cacah.md",
+    "topic": "Peluang",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "🎲 Kaidah Cacah & Peluang (Fokus UTBK) 1. Definisi Aturan isi tempat, permutasi P(n,k) , kombinasi C(n,k) , peluang P(A)=n(A)/n(S) , komplemen, bersyarat. 2. Teorema / Rumus P(n,k)=\\frac{n!}{(n-k)!}, \\quad C(n,k)=\\frac{n!}{k!(n-k)!}, \\quad P(A)=\\frac{n(A)}{n(S)}, \\quad P(A^c)=1-P(A) Varian: - Permutasi siklis: (n-1)! - Peluang majemuk saling lepas: P(A\\cup B)=P(A)+P(B) - Bebas: P(A\\cap B)=P(A)P(B) ; bersyarat: P(A|B)=P(A\\cap B)/P(B) 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: Dari 5 orang dip",
+    "body": "# 🎲 Kaidah Cacah & Peluang (Fokus UTBK)\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Peluang gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Barisan-Deret-Aritmetika-Geometri]]\n\n## 1. Definisi\n\nAturan isi tempat, permutasi $P(n,k)$, kombinasi $C(n,k)$, peluang $P(A)=n(A)/n(S)$, komplemen, bersyarat.\n\n## 2. Teorema / Rumus\n\n$$P(n,k)=\\frac{n!}{(n-k)!}, \\quad C(n,k)=\\frac{n!}{k!(n-k)!}, \\quad P(A)=\\frac{n(A)}{n(S)}, \\quad P(A^c)=1-P(A)$$\n\nVarian:\n- Permutasi siklis: $(n-1)!$\n- Peluang majemuk saling lepas: $P(A\\cup B)=P(A)+P(B)$\n- Bebas: $P(A\\cap B)=P(A)P(B)$; bersyarat: $P(A|B)=P(A\\cap B)/P(B)$\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Dari 5 orang dipilih 3. Tentukan banyak cara.\n\n> [!hint]- Hint (klik untuk buka)\n> $C(5,3)=10$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban: $\\boxed{10}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Permutasi vs kombinasi (urutan penting?)\n- Ganda hitung susunan melingkar\n- Lupa komplemen untuk 'paling sedikit 1'\n\n## 6. Flashcard (Spaced Repetition)\n\n['Kombinasi 5 pilih 3?::$C(5,3)=\\\\boxed{10}$.', 'Peluang komplemen?::$P(A^c)=1-P(A)$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Peluang\") OR contains(topik, \"Peluang\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://id.wikipedia.org/wiki/Peluang_(matematika)\n- UTBK SNBT: peluang\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Kombinasi 5 pilih 3? :: $C(5,3)=\\\\boxed{10}$.', 'Peluang komplemen?::$P(A^c)=1-P(A)$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Statistika-Deskriptif-UTBK",
+    "title": "📊 Statistika Deskriptif (Fokus UTBK)",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\06-Statistika-Probabilitas\\Statistika-Deskriptif-UTBK.md",
+    "topic": "Statistika",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "📊 Statistika Deskriptif (Fokus UTBK) 1. Definisi Data tunggal/kelompok: rata-rata \\bar{x} , median (tengah), modus (sering muncul), kuartil, jangkauan, simpangan baku. 2. Teorema / Rumus \\bar{x} = \\frac{\\sum x_i}{n}, \\quad \\bar{x}_{gab} = \\frac{n_1\\bar{x}_1+n_2\\bar{x}_2}{n_1+n_2}, \\quad s = \\sqrt{\\frac{\\sum(x_i-\\bar{x})^2}{n}} Varian: - Median data genap: rata-rata dua tengah - Modus kelompok: L+c\\cdot\\frac{d_1}{d_1+d_2} - Kuartil bawah/tengah/atas: Q_1,Q_2,Q_3 ; jangkauan =Q_3-Q_1 (hamparan) 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embe",
+    "body": "# 📊 Statistika Deskriptif (Fokus UTBK)\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Statistika gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Akar-Kuadrat]]\n\n## 1. Definisi\n\nData tunggal/kelompok: rata-rata $\\bar{x}$, median (tengah), modus (sering muncul), kuartil, jangkauan, simpangan baku.\n\n## 2. Teorema / Rumus\n\n$$\\bar{x} = \\frac{\\sum x_i}{n}, \\quad \\bar{x}_{gab} = \\frac{n_1\\bar{x}_1+n_2\\bar{x}_2}{n_1+n_2}, \\quad s = \\sqrt{\\frac{\\sum(x_i-\\bar{x})^2}{n}}$$\n\nVarian:\n- Median data genap: rata-rata dua tengah\n- Modus kelompok: $L+c\\cdot\\frac{d_1}{d_1+d_2}$\n- Kuartil bawah/tengah/atas: $Q_1,Q_2,Q_3$; jangkauan $=Q_3-Q_1$ (hamparan)\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Nilai 5,6,7,8,9. Tentukan mean, median, simpangan baku.\n\n> [!hint]- Hint (klik untuk buka)\n> Mean $=35/5=7$, median $=7$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> $s^2=(4+1+0+1+4)/5=2$ → $s=\\sqrt{2}$. Jawaban: $\\boxed{7,\\ 7,\\ \\sqrt{2}}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Mean vs median saat outlier (pakai median)\n- Populasi vs sampel ($n$ vs $n-1$)\n- Rata-rata gabungan dijumlah langsung tanpa bobot\n\n## 6. Flashcard (Spaced Repetition)\n\n['Rata-rata gabungan?::$\\\\bar{x}=(n_1\\\\bar{x}_1+n_2\\\\bar{x}_2)/(n_1+n_2)$.', 'Simpangan baku?::$s=\\\\sqrt{\\\\sum(x-\\\\bar{x})^2/n}$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Statistika\") OR contains(topik, \"Statistika\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://id.wikipedia.org/wiki/Statistika\n- UTBK SNBT: Penalaran Matematika — statistika\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Rata-rata gabungan? :: $\\\\bar{x}=(n_1\\\\bar{x}_1+n_2\\\\bar{x}_2)/(n_1+n_2)$.', 'Simpangan baku?::$s=\\\\sqrt{\\\\sum(x-\\\\bar{x})^2/n}$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Geometri-Olimpiade-Daya-Titik",
+    "title": "📐 Geometri Olimpiade: Kesebangunan & Daya Titik",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\07-Olimpiade\\Geometri-Olimpiade-Daya-Titik.md",
+    "topic": "Geometri OSN",
+    "level": "Olimpiade",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "📐 Geometri Olimpiade: Kesebangunan & Daya Titik 1. Definisi Segitiga sebangun, lingkaran (sudut keliling/pusat), daya titik PA\\cdot PB , Ceva-Menelaus, Stewart. 2. Teorema / Rumus Pow(P)=PA\\cdot PB = PT^2, \\quad \\frac{AF}{FB}\\cdot\\frac{BD}{DC}\\cdot\\frac{CE}{EA}=1\\ (Ceva) Varian: - Sudut keliling = ½ sudut pusat busur sama - Segiempat siklik \\iff sudut berhadapan 180^\\circ - Luas via \\tfrac12ab\\sin C atau Heron 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: Tali berpotongan: PA=2,PB=6,PC=3 . Ten",
+    "body": "# 📐 Geometri Olimpiade: Kesebangunan & Daya Titik\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Geometri OSN gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Pythagoras-Visual-GeoGebra]]\n\n## 1. Definisi\n\nSegitiga sebangun, lingkaran (sudut keliling/pusat), daya titik $PA\\cdot PB$, Ceva-Menelaus, Stewart.\n\n## 2. Teorema / Rumus\n\n$$Pow(P)=PA\\cdot PB = PT^2, \\quad \\frac{AF}{FB}\\cdot\\frac{BD}{DC}\\cdot\\frac{CE}{EA}=1\\ (Ceva)$$\n\nVarian:\n- Sudut keliling = ½ sudut pusat busur sama\n- Segiempat siklik $\\iff$ sudut berhadapan $180^\\circ$\n- Luas via $\\tfrac12ab\\sin C$ atau Heron\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Tali berpotongan: $PA=2,PB=6,PC=3$. Tentukan $PD$.\n\n> [!hint]- Hint (klik untuk buka)\n> $2\\cdot6=3\\cdot PD$ → $PD=4$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban: $\\boxed{4}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Daya titik salah pasang ruas\n- Siklik diklaim tanpa bukti\n- Ceva versi trigonometri vs sisi tertukar\n\n## 6. Flashcard (Spaced Repetition)\n\n['Daya titik?::$PA\\\\cdot PB=PT^2$.', 'Tali $2,6,3,?$?::$\\\\boxed{4}$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Geometri\") OR contains(topik, \"Geometri OSN\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://artofproblemsolving.com/wiki/index.php/Geometry\n- OSN: geometri\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Daya titik? :: $PA\\\\cdot PB=PT^2$.', 'Tali $2,6,3,?$?::$\\\\boxed{4}$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Ketaksamaan-AMGM-Cauchy",
+    "title": "⚖️ Ketaksamaan: AM-GM & Cauchy (OSN)",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\07-Olimpiade\\Ketaksamaan-AMGM-Cauchy.md",
+    "topic": "Ketaksamaan",
+    "level": "Olimpiade",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "⚖️ Ketaksamaan: AM-GM & Cauchy (OSN) 1. Definisi AM-GM, Cauchy-Schwarz (Titu), QM-AM, Rearrangement/Chebyshev, syarat kesetaraan. 2. Teorema / Rumus \\frac{x_1+\\cdots+x_n}{n}\\ge\\sqrt[n]{x_1\\cdots x_n}, \\quad (\\sum a_i^2)(\\sum b_i^2)\\ge(\\sum a_ib_i)^2 Varian: - Titu: \\sum a_i^2/b_i\\ge(\\sum a_i)^2/\\sum b_i ( b_i 0 ) - Kesetaraan AM-GM saat semua sama - Substitusi pqr / uvw untuk simetris 3 variabel 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: Minimum x+4/x untuk x 0 ? 5. Kesalahan Umum ⚠️ - AM-G",
+    "body": "# ⚖️ Ketaksamaan: AM-GM & Cauchy (OSN)\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Ketaksamaan gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Fungsi-Kuadrat-Diskriminan]]\n\n## 1. Definisi\n\nAM-GM, Cauchy-Schwarz (Titu), QM-AM, Rearrangement/Chebyshev, syarat kesetaraan.\n\n## 2. Teorema / Rumus\n\n$$\\frac{x_1+\\cdots+x_n}{n}\\ge\\sqrt[n]{x_1\\cdots x_n}, \\quad (\\sum a_i^2)(\\sum b_i^2)\\ge(\\sum a_ib_i)^2$$\n\nVarian:\n- Titu: $\\sum a_i^2/b_i\\ge(\\sum a_i)^2/\\sum b_i$ ($b_i>0$)\n- Kesetaraan AM-GM saat semua sama\n- Substitusi $pqr$/$uvw` untuk simetris 3 variabel\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Minimum $x+4/x$ untuk $x>0$?\n\n> [!hint]- Hint (klik untuk buka)\n> AM-GM: $\\ge2\\sqrt{4}=4$, setara saat $x=2$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban: $\\boxed{4}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- AM-GM dipakai untuk bilangan negatif\n- Syarat kesetaraan tidak dicek\n- Cauchy salah arah\n\n## 6. Flashcard (Spaced Repetition)\n\n['AM-GM 2 variabel?::$(x+y)/2\\\\ge\\\\sqrt{xy}$.', 'Min $x+4/x$, $x>0$?::$\\\\boxed{4}$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Ketaksamaan\") OR contains(topik, \"Ketaksamaan\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://artofproblemsolving.com/wiki/index.php/Inequality\n- OSN: ketaksamaan\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['AM-GM 2 variabel? :: $(x+y)/2\\\\ge\\\\sqrt{xy}$.', 'Min $x+4/x$, $x>0$?::$\\\\boxed{4}$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Kombinatorika-Olimpiade",
+    "title": "🧩 Kombinatorika Olimpiade",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\07-Olimpiade\\Kombinatorika-Olimpiade.md",
+    "topic": "Kombinatorika",
+    "level": "Olimpiade",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "🧩 Kombinatorika Olimpiade 1. Definisi Stars-and-bars, inklusi-eksklusi, pigeonhole, paritas/invarian, pewarnaan, rekurensi. 2. Teorema / Rumus x_1+\\cdots+x_k=n\\ (x_i\\ge0):\\ \\binom{n+k-1}{k-1}, \\quad |A\\cup B|=|A|+|B|-|A\\cap B| Varian: - Pigeonhole: n+1 benda, n kotak → 1 kotak isi ≥2 - Jalan monoton kanan-atas: \\binom{m+n}{m} - Catalan/bijection untuk struktur rekursif 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: Banyak solusi x+y+z=6 , x,y,z\\ge0 ? 5. Kesalahan Umum ⚠️ - Bintang-batang saat b",
+    "body": "# 🧩 Kombinatorika Olimpiade\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Kombinatorika gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Peluang-Kaidah-Cacah]]\n\n## 1. Definisi\n\nStars-and-bars, inklusi-eksklusi, pigeonhole, paritas/invarian, pewarnaan, rekurensi.\n\n## 2. Teorema / Rumus\n\n$$x_1+\\cdots+x_k=n\\ (x_i\\ge0):\\ \\binom{n+k-1}{k-1}, \\quad |A\\cup B|=|A|+|B|-|A\\cap B|$$\n\nVarian:\n- Pigeonhole: $n+1$ benda, $n$ kotak → 1 kotak isi ≥2\n- Jalan monoton kanan-atas: $\\binom{m+n}{m}$\n- Catalan/bijection untuk struktur rekursif\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Banyak solusi $x+y+z=6$, $x,y,z\\ge0$?\n\n> [!hint]- Hint (klik untuk buka)\n> Stars-bars: $\\binom{8}{2}=28$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban: $\\boxed{28}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Bintang-batang saat batas bawah >0 (geser dulu)\n- Inklusi-eksklusi berhenti di orde 2\n- Pigeonhole salah hitung kotak\n\n## 6. Flashcard (Spaced Repetition)\n\n['Stars-bars?::$\\\\binom{n+k-1}{k-1}$.', 'Solusi $x+y+z=6$ cacah?::$\\\\boxed{28}$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Kombinatorika\") OR contains(topik, \"Kombinatorika\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://artofproblemsolving.com/wiki/index.php/Combinatorics\n- OSN Matematika: kombinatorika\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Stars-bars? :: $\\\\binom{n+k-1}{k-1}$.', 'Solusi $x+y+z=6$ cacah?::$\\\\boxed{28}$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Teori-Bilangan-Modulo",
+    "title": "🔢 Teori Bilangan & Modulo (OSN)",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\07-Olimpiade\\Teori-Bilangan-Modulo.md",
+    "topic": "Teori Bilangan",
+    "level": "Olimpiade",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "🔢 Teori Bilangan & Modulo (OSN) 1. Definisi Keterbagian, FPB/KPK, kongruensi a\\equiv b\\pmod m , invers, Fermat kecil, Euler. 2. Teorema / Rumus a\\equiv b\\pmod m \\iff m\\mid(a-b), \\quad a^{p-1}\\equiv1\\pmod p\\ (p\\ \\text{prima},\\ p\\nmid a) Varian: - \\text{KPK}(a,b)\\cdot\\text{FPB}(a,b)=ab - Sisa pangkat besar: sederhanakan eksponen mod \\varphi(m) - Diophantine linear ax+by=c solvable \\iff \\text{FPB}(a,b)\\mid c 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: Tentukan sisa 7^{100} dibagi 5 . 5. Kesalah",
+    "body": "# 🔢 Teori Bilangan & Modulo (OSN)\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi Teori Bilangan gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Akar-Kuadrat]]\n\n## 1. Definisi\n\nKeterbagian, FPB/KPK, kongruensi $a\\equiv b\\pmod m$, invers, Fermat kecil, Euler.\n\n## 2. Teorema / Rumus\n\n$$a\\equiv b\\pmod m \\iff m\\mid(a-b), \\quad a^{p-1}\\equiv1\\pmod p\\ (p\\ \\text{prima},\\ p\\nmid a)$$\n\nVarian:\n- $\\text{KPK}(a,b)\\cdot\\text{FPB}(a,b)=ab$\n- Sisa pangkat besar: sederhanakan eksponen mod $\\varphi(m)$\n- Diophantine linear $ax+by=c$ solvable $\\iff \\text{FPB}(a,b)\\mid c$\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Tentukan sisa $7^{100}$ dibagi $5$.\n\n> [!hint]- Hint (klik untuk buka)\n> $7\\equiv2$, $2^4\\equiv1\\pmod5$, $100\\equiv0\\pmod4$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Sisa $\\boxed{1}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Modulo distributif di penjumlahan vs pangkat\n- Fermat dipakai saat modulus komposit\n- Lupa syarat $p\\nmid a$\n\n## 6. Flashcard (Spaced Repetition)\n\n['Fermat kecil?::$a^{p-1}\\\\equiv1\\\\pmod p$.', 'Sisa $7^{100}$ mod 5?::$\\\\boxed{1}$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Modulo\") OR contains(topik, \"Teori Bilangan\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic\n- OSN Matematika: teori bilangan\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Fermat kecil? :: $a^{p-1}\\\\equiv1\\\\pmod p$.', 'Sisa $7^{100}$ mod 5?::$\\\\boxed{1}$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Hitung-Cepat-Aproksimasi",
+    "title": "⚡ Hitung Cepat & Aproksimasi UTBK",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\08-UTBK\\Hitung-Cepat-Aproksimasi.md",
+    "topic": "UTBK",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "⚡ Hitung Cepat & Aproksimasi UTBK 1. Definisi Kuadrat (a\\pm b)^2 , selisih kuadrat, persen-fraksi, pembulatan cerdas, cek digit terakhir. 2. Teorema / Rumus (a\\pm b)^2=a^2\\pm2ab+b^2, \\quad a^2-b^2=(a-b)(a+b), \\quad x\\% = x/100 Varian: - 25^2=625 , 125\\times8=1000 - \\sqrt{n}\\approx linearisasi di kuadrat terdekat - Digit terakhir untuk eliminasi opsi perkalian 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidraw/ → embed ![[...]] . 4. Contoh Soal Terapan Contoh 1: 48\\times52 cepat? 5. Kesalahan Umum ⚠️ - Aproksimasi tanpa batas error - Persen berantai d",
+    "body": "# ⚡ Hitung Cepat & Aproksimasi UTBK\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi UTBK gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[Akar-Kuadrat]]\n\n## 1. Definisi\n\nKuadrat $(a\\pm b)^2$, selisih kuadrat, persen-fraksi, pembulatan cerdas, cek digit terakhir.\n\n## 2. Teorema / Rumus\n\n$$(a\\pm b)^2=a^2\\pm2ab+b^2, \\quad a^2-b^2=(a-b)(a+b), \\quad x\\% = x/100$$\n\nVarian:\n- $25^2=625$, $125\\times8=1000$\n- $\\sqrt{n}\\approx$ linearisasi di kuadrat terdekat\n- Digit terakhir untuk eliminasi opsi perkalian\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** $48\\times52$ cepat?\n\n> [!hint]- Hint (klik untuk buka)\n> $(50-2)(50+2)=2500-4=2496$.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban: $\\boxed{2496}$.\n\n## 5. Kesalahan Umum ⚠️\n\n- Aproksimasi tanpa batas error\n- Persen berantai dijumlah (harusnya dikali)\n- Koma desimal geser\n\n## 6. Flashcard (Spaced Repetition)\n\n['$48\\\\times52$?::$\\\\boxed{2496}$.', 'Selisih kuadrat?::$a^2-b^2=(a-b)(a+b)$.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"Hitung Cepat\") OR contains(topik, \"UTBK\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- Bank soal UTBK: hitung cepat\n- SNBT penalaran matematika\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['$48\\\\times52$? :: $\\\\boxed{2496}$.', 'Selisih kuadrat?::$a^2-b^2=(a-b)(a+b)$.']"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Strategi-Penalaran-Matematika",
+    "title": "🎯 Strategi Penalaran Matematika UTBK-SNBT",
+    "path": "C:\\Users\\realh\\math-native-vault\\10-Teori\\08-UTBK\\Strategi-Penalaran-Matematika.md",
+    "topic": "UTBK",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[teori, review]",
+    "excerpt": "🎯 Strategi Penalaran Matematika UTBK-SNBT 1. Definisi Anatomi soal: stimulus pendek + 1 pertanyaan, 5 opsi, waktu ±2 mnt/soal. Senjata: substitusi opsi (backsolving), eliminasi dimensi/satuan, estimasi orde, cari pola. 2. Teorema / Rumus \\text{Skor} = \\frac{\\text{benar}}{\\text{dikerjakan}} \\times \\text{bobot}, \\quad t_{per\\ soal} \\le 120\\ \\text{detik} Varian: - Backsolving: coba opsi tengah (C) dulu - Eliminasi: buang 2 opsi absurd sebelum hitung - Tandai-soal-berat: lewat dulu, kembali bila sisa waktu 3. Visual & Intuisi GeoGebra (butuh internet) Desmos Excalidraw Sketsa di 99-Assets/Excalidr",
+    "body": "# 🎯 Strategi Penalaran Matematika UTBK-SNBT\n\n> [!hint]- 🎯 Tujuan Belajar\n> Setelah membaca note ini kamu bisa memakai materi UTBK gaya UTBK/OSN: cepat, tepat, anti-jebakan.\n> Prasyarat: [[SPLDV-Eliminasi-Substitusi]]\n\n## 1. Definisi\n\nAnatomi soal: stimulus pendek + 1 pertanyaan, 5 opsi, waktu ±2 mnt/soal. Senjata: substitusi opsi (backsolving), eliminasi dimensi/satuan, estimasi orde, cari pola.\n\n## 2. Teorema / Rumus\n\n$$\\text{Skor} = \\frac{\\text{benar}}{\\text{dikerjakan}} \\times \\text{bobot}, \\quad t_{per\\ soal} \\le 120\\ \\text{detik}$$\n\nVarian:\n- Backsolving: coba opsi tengah (C) dulu\n- Eliminasi: buang 2 opsi absurd sebelum hitung\n- Tandai-soal-berat: lewat dulu, kembali bila sisa waktu\n\n## 3. Visual & Intuisi\n\n### GeoGebra (butuh internet)\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n### Desmos\n```desmos-graph\ny=x^2\ny=2*x+1\n```\n\n### Excalidraw\nSketsa di `99-Assets/Excalidraw/` → embed `![[...]]`.\n\n## 4. Contoh Soal Terapan\n\n**Contoh 1:** Soal cerita SPLDV: total 100 tiket, dst. (rutin).\n\n> [!hint]- Hint (klik untuk buka)\n> Gunakan eliminasi + substitusi seperti SPLDV-01.\n\n> [!jawab]- ✅ Pembahasan (klik untuk buka)\n> Jawaban selalu $\\boxed{\\text{opsi}}$ + cek balik 10 detik.\n\n## 5. Kesalahan Umum ⚠️\n\n- Bablas 5 menit di 1 soal\n- Tidak cek balik (salah tanda)\n- Menghafal rumus tanpa latihan pacing\n\n## 6. Flashcard (Spaced Repetition)\n\n['Waktu ideal per soal?::$\\\\le120$ detik.', 'Opsi pertama dicoba saat backsolving?::Opsi tengah.']\n\n## 7. Latihan Terkait (auto via Dataview)\n\n```dataview\nTABLE WITHOUT ID\n  file.link AS \"Soal\",\n  kesulitan AS \"⭐\",\n  status AS \"Status\",\n  sumber AS \"Sumber\"\nFROM \"20-Latihan-Soal\"\nWHERE contains(topik, \"UTBK\") OR contains(topik, \"UTBK\") OR contains(tags, \"soal\")\nSORT kesulitan ASC\nLIMIT 20\n```\n\n## 8. Referensi\n\n- https://snpmb.bppp.kemdikbud.go.id/\n- Bank soal UTBK: penalaran matematika\n\n## 9. 🧭 Jalur Belajar\n\n> Kuasai dulu (prasyarat): `= this.prasyarat`\n>\n> Setelah note ini, lanjut ke materi yang membutuhkannya:\n\n```dataview\nLIST\nFROM \"10-Teori\"\nWHERE contains(prasyarat, this.file.link) AND file.name != \"MOC-Teori\"\nSORT file.path ASC\n```\n\n> Peta lengkap: [[10-Teori/Peta-Prasyarat|Peta Prasyarat]].\n\n---\n🔗 **Lihat juga:** [[40-Bank-Rumus/MOC-Rumus|Bank Rumus]] • [[60-Daily-Practice/Dashboard|Daily Practice]]\n",
+    "visuals": [
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2\ny=2*x+1"
+    ],
+    "flashcards": [
+     "['Waktu ideal per soal? :: $\\\\le120$ detik.', 'Opsi pertama dicoba saat backsolving?::Opsi tengah.']"
+    ],
+    "pro_gated": false
+   }
+  ],
+  "soal": [
+   {
+    "id": "OSN-01-Modulo-Pangkat",
+    "title": "✏️ Soal: Sisa pangkat OSN (Olimpiade, ⭐5)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\Olimpiade\\OSN-01-Modulo-Pangkat.md",
+    "topic": "OSN Modulo",
+    "level": "Olimpiade",
+    "difficulty": "5",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Sisa pangkat OSN (Olimpiade, ⭐5) Data: lihat soal. Ditanya: lihat soal. Rencana: 3^6\\equiv1\\pmod7,\\ 2026\\equiv4\\pmod6 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards 3^{2026}\\bmod7 ?:: \\boxed{4} .",
+    "body": "# ✏️ Soal: Sisa pangkat OSN (Olimpiade, ⭐5)\n\n> [!soal] 📝 Soal\n> Tentukan sisa $3^{2026}$ dibagi $7$.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$3^6\\equiv1\\pmod7,\\ 2026\\equiv4\\pmod6$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** $3^4=81\\equiv4\\pmod7$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{4}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> Jawaban $\\boxed{4}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(pow(3,2026,7))  # 4\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"OSN Modulo\")\nLIMIT 10\n```\n\n---\n#flashcards\n$3^{2026}\\bmod7$?::$\\boxed{4}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "$3^{2026}\\bmod7$? :: $\\boxed{4}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "OSN-02-Kombinatorika-Jalan",
+    "title": "✏️ Soal: Jalan monoton OSN (Olimpiade, ⭐5)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\Olimpiade\\OSN-02-Kombinatorika-Jalan.md",
+    "topic": "OSN Kombinatorika",
+    "level": "Olimpiade",
+    "difficulty": "5",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Jalan monoton OSN (Olimpiade, ⭐5) Data: lihat soal. Ditanya: lihat soal. Rencana: \\binom{7}{4}=35 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Jalan (0,0)\\to(4,3) ?:: \\boxed{35} .",
+    "body": "# ✏️ Soal: Jalan monoton OSN (Olimpiade, ⭐5)\n\n> [!soal] 📝 Soal\n> Jalan monoton $(0,0)\\to(4,3)$ (kanan/atas). Tentukan banyaknya.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$\\binom{7}{4}=35$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Pilih posisi 4 kanan dari 7 langkah.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{35}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> Jawaban $\\boxed{35}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nimport math; print(math.comb(7,4))  # 35\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"OSN Kombinatorika\")\nLIMIT 10\n```\n\n---\n#flashcards\nJalan $(0,0)\\to(4,3)$?::$\\boxed{35}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Jalan $(0,0)\\to(4,3)$? :: $\\boxed{35}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "OSN-03-Ketaksamaan-Minimum",
+    "title": "✏️ Soal: Minimum OSN (Olimpiade, ⭐5)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\Olimpiade\\OSN-03-Ketaksamaan-Minimum.md",
+    "topic": "OSN Ketaksamaan",
+    "level": "Olimpiade",
+    "difficulty": "5",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Minimum OSN (Olimpiade, ⭐5) Data: lihat soal. Ditanya: lihat soal. Rencana: a^2+b^2\\ge(a+b)^2/2=18 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Min a^2+b^2 , a+b=6 ?:: \\boxed{18} .",
+    "body": "# ✏️ Soal: Minimum OSN (Olimpiade, ⭐5)\n\n> [!soal] 📝 Soal\n> Untuk $a,b>0$ dengan $a+b=6$, tentukan minimum $a^2+b^2$.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$a^2+b^2\\ge(a+b)^2/2=18$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** QM-AM / $(a-b)^2\\ge0$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{18}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> Setara $a=b=3$. Jawaban $\\boxed{18}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(6**2/2)  # 18.0\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"OSN Ketaksamaan\")\nLIMIT 10\n```\n\n---\n#flashcards\nMin $a^2+b^2$, $a+b=6$?::$\\boxed{18}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Min $a^2+b^2$, $a+b=6$? :: $\\boxed{18}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "OSN-04-Geometri-Siklik",
+    "title": "✏️ Soal: Segiempat siklik OSN (Olimpiade, ⭐5)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\Olimpiade\\OSN-04-Geometri-Siklik.md",
+    "topic": "OSN Geometri",
+    "level": "Olimpiade",
+    "difficulty": "5",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Segiempat siklik OSN (Olimpiade, ⭐5) Data: lihat soal. Ditanya: lihat soal. Rencana: \\angle A+\\angle C=180^\\circ Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Siklik A=80^\\circ , C ?:: \\boxed{100^\\circ} .",
+    "body": "# ✏️ Soal: Segiempat siklik OSN (Olimpiade, ⭐5)\n\n> [!soal] 📝 Soal\n> Segiempat siklik $ABCD$: $\\angle A=80^\\circ$. Tentukan $\\angle C$.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$\\angle A+\\angle C=180^\\circ$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Siklik berhadapan suplementer.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{100^\\circ}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> Jawaban $\\boxed{100^\\circ}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(180-80)  # 100\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"OSN Geometri\")\nLIMIT 10\n```\n\n---\n#flashcards\nSiklik $A=80^\\circ$, $C$?::$\\boxed{100^\\circ}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Siklik $A=80^\\circ$, $C$? :: $\\boxed{100^\\circ}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Barisan-Deret-01-Aritmetika",
+    "title": "✏️ Soal: Barisan-Deret-01 Aritmetika (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Barisan-Deret-01-Aritmetika.md",
+    "topic": "Barisan Deret",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: Barisan-Deret-01 Aritmetika (SMA, ⭐3) Data: U_2 = a+b = 7 ; S_5 = \\frac{5}{2}(2a+4b) = 55 . Ditanya: a dan b . Visual (Desmos — titik barisan) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) a=2 , r=3 (geometri). Tentukan U_5 . Jawaban: \\boxed{162} . 2. (⭐3) a=3 , b=4 . Tentukan S_4 . Jawaban: \\boxed{36} . 3. (⭐4) S_\\infty = 16 dengan a=8 . Tentukan r . Jawaban: \\boxed{\\frac{1}{2}} . 🔗 Teori Terkait Teori utama: [[10-Teori/02-Aljabar/Barisan-Deret-Arit",
+    "body": "# ✏️ Soal: Barisan-Deret-01 Aritmetika (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Suku ke-2 suatu barisan aritmetika adalah $7$, dan jumlah 5 suku\n> pertamanya adalah $55$. Tentukan suku pertama ($a$) dan beda ($b$).\n> $$\n> U_2 = 7, \\qquad S_5 = 55\n> $$\n\n**Data:** $U_2 = a+b = 7$; $S_5 = \\frac{5}{2}(2a+4b) = 55$.\n**Ditanya:** $a$ dan $b$.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Tulis dua persamaan: $a+b=7$ dan $\\frac{5}{2}(2a+4b)=55$.\n> **Hint 2:** Sederhanakan (2): $2a+4b = 22$, bagi 2 → $a+2b = 11$. Ini SPLDV!\n> **Hint 3:** Kurangkan: $(a+2b)-(a+b) = 11-7$. Lalu cek jumlahnya 55.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{a=3,\\ b=4}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** Sistem: $a+b=7$, $a+2b=11$.\n> **Langkah 2:** Kurang → $b = 4$, lalu $a = 7-4 = 3$.\n> **Langkah 3 (cek):** barisan $3,7,11,15,19$; jumlah $= 55$ ✅.\n> Tekniknya SPLDV — lihat [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV]].\n\n## Visual (Desmos — titik barisan)\n\n```desmos-graph\ny=3+4\\left(x-1\\right)\n\\left[1,5\\right]\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\na, b = sp.symbols('a b')\nprint(sp.solve([a+b-7, a+2*b-11], [a, b]))  # {a: 3, b: 4}\nprint(sum(3+4*i for i in range(5)))  # 55\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) $a=2$, $r=3$ (geometri). Tentukan $U_5$. Jawaban: $\\boxed{162}$.\n2. (⭐3) $a=3$, $b=4$. Tentukan $S_4$. Jawaban: $\\boxed{36}$.\n3. (⭐4) $S_\\infty = 16$ dengan $a=8$. Tentukan $r$. Jawaban: $\\boxed{\\frac{1}{2}}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\nTeori utama: [[10-Teori/02-Aljabar/Barisan-Deret-Aritmetika-Geometri|Barisan dan Deret]].\n\n---\n#flashcards\nUbah S5 jadi persamaan?::$S_5=\\frac{5}{2}(2a+4b)=55 \\Rightarrow a+2b=11$.\n\n$a,b$ jika $U_2=7$, $S_5=55$?::$\\boxed{a=3,\\ b=4}$, cek $3+7+11+15+19=55$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=3+4\\left(x-1\\right)\n\\left[1,5\\right]"
+    ],
+    "flashcards": [
+     "Ubah S5 jadi persamaan? :: $S_5=\\frac{5}{2}(2a+4b)=55 \\Rightarrow a+2b=11$.",
+     "$a,b$ jika $U_2=7$, $S_5=55$? :: $\\boxed{a=3,\\ b=4}$, cek $3+7+11+15+19=55$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Fungsi-Kuadrat-01-Diskriminan",
+    "title": "✏️ Soal: Fungsi-Kuadrat-01 Diskriminan (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Fungsi-Kuadrat-01-Diskriminan.md",
+    "topic": "Fungsi Kuadrat",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: Fungsi-Kuadrat-01 Diskriminan (SMA, ⭐3) Data: a=1 , b=m+1 , c=9 . Ditanya: m sehingga D=0 . Visual (Desmos — parabola menyinggung sumbu-x) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) Tentukan akar x^2-5x+6=0 . Jawaban: \\boxed{2\\text{ dan }3} . 2. (⭐3) Tentukan m agar x^2+mx+4=0 punya dua akar real berbeda ( D 0 ). Jawaban: \\boxed{m<-4\\text{ atau }m 4} . 3. (⭐4) Jika x_1,x_2 akar 2x^2-8x+6=0 , tentukan x_1+x_2 dan x_1x_2 (pakai Vieta, tanpa mencari ",
+    "body": "# ✏️ Soal: Fungsi-Kuadrat-01 Diskriminan (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Tentukan semua nilai $m$ agar persamaan kuadrat berikut mempunyai akar kembar:\n> $$\n> x^2+(m+1)x+9 = 0\n> $$\n\n**Data:** $a=1$, $b=m+1$, $c=9$.\n**Ditanya:** $m$ sehingga $D=0$.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Akar kembar artinya diskriminan nol: $D = b^2-4ac = 0$.\n> **Hint 2:** Substitusi: $(m+1)^2-4\\cdot 1\\cdot 9 = 0 \\Rightarrow (m+1)^2=36$.\n> **Hint 3:** $m+1 = \\pm 6$ — jangan lupa dua kemungkinan tanda!\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{5\\text{ dan }-7}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** Syarat kembar: $D = (m+1)^2-36 = 0$.\n> **Langkah 2:** $(m+1)^2 = 36 \\Rightarrow m+1 = 6$ atau $m+1 = -6$.\n> **Langkah 3:** $m = 5$ atau $m = -7$.\n> **Cek:** $m=5$: $x^2+6x+9=(x+3)^2$ ✅ kembar. $m=-7$: $x^2-6x+9=(x-3)^2$ ✅ kembar.\n\n## Visual (Desmos — parabola menyinggung sumbu-x)\n\n```desmos-graph\ny=x^2+6x+9\ny=x^2-6x+9\ny=0\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nm = sp.symbols('m')\nprint(sp.solve([(m+1)**2 - 36], [m]))  # [(-7,), (5,)]\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) Tentukan akar $x^2-5x+6=0$. Jawaban: $\\boxed{2\\text{ dan }3}$.\n2. (⭐3) Tentukan $m$ agar $x^2+mx+4=0$ punya dua akar real berbeda ($D>0$). Jawaban: $\\boxed{m<-4\\text{ atau }m>4}$.\n3. (⭐4) Jika $x_1,x_2$ akar $2x^2-8x+6=0$, tentukan $x_1+x_2$ dan $x_1x_2$ (pakai Vieta, tanpa mencari akar). Jawaban: $\\boxed{4\\text{ dan }3}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\n---\n#flashcards\nSyarat akar kembar persamaan kuadrat?::$D = b^2-4ac = 0$.\n\n$m$ agar $x^2+(m+1)x+9=0$ kembar?::$\\boxed{5\\text{ dan }-7}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=x^2+6x+9\ny=x^2-6x+9\ny=0"
+    ],
+    "flashcards": [
+     "Syarat akar kembar persamaan kuadrat? :: $D = b^2-4ac = 0$.",
+     "$m$ agar $x^2+(m+1)x+9=0$ kembar? :: $\\boxed{5\\text{ dan }-7}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Limit-01-Substitusi-Pemfaktoran",
+    "title": "✏️ Soal: Limit-01 Substitusi & Pemfaktoran (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Limit-01-Substitusi-Pemfaktoran.md",
+    "topic": "Limit",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, kalkulus]",
+    "excerpt": "✏️ Soal: Limit-01 Substitusi & Pemfaktoran (SMA, ⭐3) Data: pembilang nol di x=2 , penyebut nol di x=2 (bentuk \\frac{0}{0} ). Ditanya: nilai limit. Visual (Desmos — garis berlubang) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) \\lim_{x\\to 3}\\frac{x^2-9}{x-3} . Jawaban: \\boxed{6} . 2. (⭐3) \\lim_{x\\to 2}\\frac{x^3-8}{x-2} . Jawaban: \\boxed{12} . 3. (⭐4) \\lim_{x\\to -1}\\frac{x^2+3x+2}{x+1} . Jawaban: \\boxed{1} . 🔗 Teori Terkait --- flashcards Cara tangani limit 0/0",
+    "body": "# ✏️ Soal: Limit-01 Substitusi & Pemfaktoran (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Tentukan nilai dari:\n> $$\n> \\lim_{x\\to 2}\\frac{x^2-4}{x-2}\n> $$\n\n**Data:** pembilang nol di $x=2$, penyebut nol di $x=2$ (bentuk $\\frac{0}{0}$).\n**Ditanya:** nilai limit.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Substitusi langsung memberi $\\frac{0}{0}$ — harus difaktorkan dulu.\n> **Hint 2:** $x^2-4 = (x-2)(x+2)$ (selisih kuadrat).\n> **Hint 3:** Coret $(x-2)$, sisa limit $(x+2)$ yang bisa disubstitusi langsung.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{4}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** Bentuk $\\frac{0}{0}$ → faktor: $\\frac{(x-2)(x+2)}{x-2}$.\n> **Langkah 2:** Coret $(x-2)$ (valid karena $x \\neq 2$ pada limit) → $\\lim_{x\\to 2}(x+2)$.\n> **Langkah 3:** Substitusi: $2+2 = 4$.\n> **Cek:** SymPy `limit` = 4 ✅.\n\n## Visual (Desmos — garis berlubang)\n\n```desmos-graph\ny=\\frac{x^2-4}{x-2}\ny=4\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nx = sp.symbols('x')\nprint(sp.limit((x**2 - 4)/(x - 2), x, 2))  # 4\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) $\\lim_{x\\to 3}\\frac{x^2-9}{x-3}$. Jawaban: $\\boxed{6}$.\n2. (⭐3) $\\lim_{x\\to 2}\\frac{x^3-8}{x-2}$. Jawaban: $\\boxed{12}$.\n3. (⭐4) $\\lim_{x\\to -1}\\frac{x^2+3x+2}{x+1}$. Jawaban: $\\boxed{1}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\n---\n#flashcards\nCara tangani limit 0/0 aljabar?::Faktorkan, coret faktor $(x-c)$, lalu substitusi.\n\n$\\lim_{x\\to 2}\\frac{x^2-4}{x-2}$?::$\\boxed{4}$ karena $=\\lim_{x\\to 2}(x+2)$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=\\frac{x^2-4}{x-2}\ny=4"
+    ],
+    "flashcards": [
+     "Cara tangani limit 0/0 aljabar? :: Faktorkan, coret faktor $(x-c)$, lalu substitusi.",
+     "$\\lim_{x\\to 2}\\frac{x^2-4}{x-2}$? :: $\\boxed{4}$ karena $=\\lim_{x\\to 2}(x+2)$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Matriks-01-Determinan-Invers",
+    "title": "✏️ Soal: Matriks-01 Determinan & Invers (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Matriks-01-Determinan-Invers.md",
+    "topic": "Matriks",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: Matriks-01 Determinan & Invers (SMA, ⭐3) Data: a=2 , b=1 , c=3 , d=4 . Ditanya: \\det A dan A^{-1} . Visual (Desmos — cek via SPLDV) Kolom-kolom A^{-1} adalah koordinat penyusun vektor satuan — titik potongnya (1,0) dan (0,1) . Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) \\det\\begin{pmatrix}3&2\\\\1&4\\end{pmatrix} = ? Jawaban: \\boxed{10} . 2. (⭐3) Invers \\begin{pmatrix}3&2\\\\1&4\\end{pmatrix} = ? Jawaban: \\boxed{\\frac{1}{10}\\begin{pmatrix}4&-2\\\\-1&3\\end{",
+    "body": "# ✏️ Soal: Matriks-01 Determinan & Invers (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Diketahui matriks $A = \\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$.\n> Tentukan determinan dan invers matriks $A$.\n> $$\n> \\det A = ?,\\qquad A^{-1} = ?\n> $$\n\n**Data:** $a=2$, $b=1$, $c=3$, $d=4$.\n**Ditanya:** $\\det A$ dan $A^{-1}$.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** $\\det A = ad-bc = 2\\cdot 4-1\\cdot 3$.\n> **Hint 2:** Karena $\\det \\neq 0$, invers ada. Tukar diagonal utama (2↔4), negasikan diagonal lain.\n> **Hint 3:** Bagi SEMUA entri dengan determinan.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{\\det A = 5,\\ A^{-1} = \\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** $\\det A = 8-3 = 5 \\neq 0$ → invers ada.\n> **Langkah 2:** $A^{-1} = \\frac{1}{5}\\begin{pmatrix}4&-1\\\\-3&2\\end{pmatrix}$.\n> **Cek:** $A\\cdot A^{-1} = \\frac{1}{5}\\begin{pmatrix}8-3&0\\\\0&-3+8\\end{pmatrix} = I$ ✅.\n\n## Visual (Desmos — cek via SPLDV)\n\n```desmos-graph\n2x+y=3\n3x+4y=3\n```\n\nKolom-kolom $A^{-1}$ adalah koordinat penyusun vektor satuan — titik potongnya $(1,0)$ dan $(0,1)$.\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nA = sp.Matrix([[2, 1], [3, 4]])\nprint(A.det())  # 5\nprint(A.inv())  # Matrix([[4/5, -1/5], [-3/5, 2/5]])\nprint(A * A.inv())  # I (identitas)\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) $\\det\\begin{pmatrix}3&2\\\\1&4\\end{pmatrix} = ?$ Jawaban: $\\boxed{10}$.\n2. (⭐3) Invers $\\begin{pmatrix}3&2\\\\1&4\\end{pmatrix} = ?$ Jawaban: $\\boxed{\\frac{1}{10}\\begin{pmatrix}4&-2\\\\-1&3\\end{pmatrix}}$.\n3. (⭐4) Selesaikan $\\begin{cases}x+2y=5\\\\3x+4y=11\\end{cases}$ via $X=A^{-1}B$. Jawaban: $\\boxed{(1,\\,2)}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\nTeori utama: [[10-Teori/02-Aljabar/Matriks-Determinan-Invers|Matriks Determinan dan Invers]].\n\n---\n#flashcards\nMnemonik invers 2×2?::Tukar diagonal utama, negasikan diagonal lain, bagi determinan.\n\n$\\det\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$?::$\\boxed{5}$ karena $8-3$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "2x+y=3\n3x+4y=3"
+    ],
+    "flashcards": [
+     "Mnemonik invers 2×2? :: Tukar diagonal utama, negasikan diagonal lain, bagi determinan.",
+     "$\\det\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}$? :: $\\boxed{5}$ karena $8-3$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Polinomial-01-Teorema-Sisa",
+    "title": "✏️ Soal: Polinomial-01 Teorema Sisa (SMA, ⭐4)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Polinomial-01-Teorema-Sisa.md",
+    "topic": "Polinomial",
+    "level": "SMA",
+    "difficulty": "4",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: Polinomial-01 Teorema Sisa (SMA, ⭐4) Data: P(x) = 2x^3+ax^2+bx-6 ; teorema sisa: sisa bagi (x-c) adalah P(c) . Ditanya: a+b . Visual (Desmos — titik sisa) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐3) Tentukan sisa (x^3-2x^2+3) dibagi (x-2) (langsung P(2) ). Jawaban: \\boxed{3} . 2. (⭐4) Tentukan k agar x^3+kx^2-4x-12 habis dibagi (x+2) . Jawaban: \\boxed{3} . 3. (⭐5) Tunjukkan (x-1) faktor x^3-6x^2+11x-6 lalu tentukan semua faktor linearnya. Jawaban: ",
+    "body": "# ✏️ Soal: Polinomial-01 Teorema Sisa (SMA, ⭐4)\n\n> [!soal] 📝 Soal\n> Suku banyak $P(x) = 2x^3+ax^2+bx-6$ habis dibagi $(x-1)$ dan bersisa $-8$\n> jika dibagi $(x+1)$. Tentukan nilai $a+b$.\n> $$\n> P(1) = 0, \\qquad P(-1) = -8\n> $$\n\n**Data:** $P(x) = 2x^3+ax^2+bx-6$; teorema sisa: sisa bagi $(x-c)$ adalah $P(c)$.\n**Ditanya:** $a+b$.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** \"Habis dibagi $(x-1)$\" artinya sisa $0$: $P(1) = 0$. Tulis persamaannya.\n> **Hint 2:** $P(1) = 2+a+b-6 = 0 \\Rightarrow a+b = 4$. Sebenarnya jawaban sudah ketemu — persamaan kedua untuk memastikan $a,b$ ada!\n> **Hint 3:** $P(-1) = -2+a-b-6 = -8 \\Rightarrow a-b = 0$, jadi $a=b=2$. Konsisten dengan $a+b=4$.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{4}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1 (teorema sisa):** $P(1) = 2(1)+a(1)+b(1)-6 = a+b-4 = 0$.\n> **Langkah 2:** Langsung $a+b = 4$.\n> **Langkah 3 (verifikasi eksistensi):** $P(-1) = -2+a-b-6 = -8 \\Rightarrow a-b = 0 \\Rightarrow a = b = 2$. Jumlahnya $4$ ✅.\n> **Cek:** SymPy `solve` = $\\{a: 2, b: 2\\}$ ✅.\n\n## Visual (Desmos — titik sisa)\n\n```desmos-graph\ny=2x^3+2x^2+2x-6\n\\left(1,0\\right)\n\\left(-1,-8\\right)\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\na, b = sp.symbols('a b')\nprint(sp.solve([2 + a + b - 6, -2 + a - b - 6 + 8], [a, b]))  # {a: 2, b: 2}\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐3) Tentukan sisa $(x^3-2x^2+3)$ dibagi $(x-2)$ (langsung $P(2)$). Jawaban: $\\boxed{3}$.\n2. (⭐4) Tentukan $k$ agar $x^3+kx^2-4x-12$ habis dibagi $(x+2)$. Jawaban: $\\boxed{3}$.\n3. (⭐5) Tunjukkan $(x-1)$ faktor $x^3-6x^2+11x-6$ lalu tentukan semua faktor linearnya. Jawaban: $\\boxed{(x-1)(x-2)(x-3)}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\nTeori utama: [[10-Teori/02-Aljabar/Polinomial-Teorema-Sisa|Polinomial Teorema Sisa dan Faktor]].\n\n---\n#flashcards\nTeorema sisa untuk pembagi (x-c)?::Sisa $= P(c)$; habis dibagi artinya $P(c)=0$.\n\n$a+b$ jika $2x^3+ax^2+bx-6$ habis dibagi (x-1)?::$\\boxed{4}$ langsung dari $P(1)=0$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "y=2x^3+2x^2+2x-6\n\\left(1,0\\right)\n\\left(-1,-8\\right)"
+    ],
+    "flashcards": [
+     "Teorema sisa untuk pembagi (x-c)? :: Sisa $= P(c)$; habis dibagi artinya $P(c)=0$.",
+     "$a+b$ jika $2x^3+ax^2+bx-6$ habis dibagi (x-1)? :: $\\boxed{4}$ langsung dari $P(1)=0$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "SPLDV-01-Eliminasi-Substitusi",
+    "title": "✏️ Soal: SPLDV-01 Eliminasi & Substitusi (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\SPLDV-01-Eliminasi-Substitusi.md",
+    "topic": "SPLDV",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: SPLDV-01 Eliminasi & Substitusi (SMA, ⭐3) Data: 2x+3y=12 , x-y=1 . Ditanya: (x,y) yang memenuhi keduanya. Visual (Desmos — interseksi dua garis) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (5 level, jawaban terverifikasi SymPy 2026-09-17) Variasi 1 (⭐1/5, pemula — jumlah & selisih) Variasi 2 (⭐2/5, mudah — eliminasi sederhana) Variasi 3 (⭐3/5, sedang — koefisien pecahan, jawaban pecahan) Variasi 4 (⭐4/5, sulit — pecahan di kedua persamaan) Variasi 5 (⭐5/5, olimpiade — Diophantine) | Variasi | K",
+    "body": "# ✏️ Soal: SPLDV-01 Eliminasi & Substitusi (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Tentukan himpunan penyelesaian dari sistem:\n> $$\n> \\begin{cases}\n> 2x + 3y = 12 \\\\\n> x - y = 1\n> \\end{cases}\n> $$\n> Diketahui dua garis berpotongan di satu titik. Tentukan $(x, y)$.\n\n**Data:** $2x+3y=12$, $x-y=1$.\n**Ditanya:** $(x,y)$ yang memenuhi keduanya.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Dari persamaan (2): $x = y+1$. Ini siap disubstitusi.\n> **Hint 2:** Substitusi ke (1): $2(y+1)+3y=12 \\Rightarrow 5y+2=12$.\n> **Hint 3:** $5y=10 \\Rightarrow y=2$, lalu $x=3$. Cek balik ke kedua persamaan.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{(3,\\,2)}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1 (substitusi):** $x = y+1$.\n> $$2(y+1)+3y = 12$$\n> **Langkah 2:** $2y+2+3y=12 \\Rightarrow 5y=10 \\Rightarrow y=2$.\n> **Langkah 3:** $x = 2+1 = 3$.\n> **Cek:** $2(3)+3(2)=6+6=12$ ✅, $3-2=1$ ✅.\n> **Alternatif eliminasi:** kalikan (2) dengan 3 → $3x-3y=3$, tambah ke (1) → $5x=15 \\Rightarrow x=3$.\n\n## Visual (Desmos — interseksi dua garis)\n\n```desmos-graph\n2x+3y=12\nx-y=1\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nx, y = sp.symbols('x y')\nsol = sp.solve([2*x+3*y-12, x-y-1], (x, y))\nprint(sol)  # {x: 3, y: 2}\n```\n\n## 🔄 Variasi Soal (5 level, jawaban terverifikasi SymPy 2026-09-17)\n\n### Variasi 1 (⭐1/5, pemula — jumlah & selisih)\n\n> [!soal] Soal 1\n> $$\n> \\begin{cases}\n> x+y=5\\\\\n> x-y=1\n> \\end{cases}\n> $$\n\n> [!hint]- Hint 1\n> Jumlahkan kedua persamaan untuk mengeliminasi $y$.\n\n> [!jawab]- Jawaban + Pembahasan 1\n> Jumlah: $2x=6 \\Rightarrow x=3$, lalu $y=5-3=2$. Cek: $3-2=1$ ✅.\n> Jawaban: $\\boxed{(3,\\,2)}$\n\n### Variasi 2 (⭐2/5, mudah — eliminasi sederhana)\n\n> [!soal] Soal 2\n> $$\n> \\begin{cases}\n> 3x+2y=16\\\\\n> x+y=6\n> \\end{cases}\n> $$\n\n> [!hint]- Hint 2\n> Kalikan persamaan (2) dengan 2, lalu kurangkan dari (1) untuk mengeliminasi $y$.\n\n> [!jawab]- Jawaban + Pembahasan 2\n> $2\\times(2)$: $2x+2y=12$. Kurang dari (1): $x=4$, lalu $y=6-4=2$. Cek: $3(4)+2(2)=16$ ✅.\n> Jawaban: $\\boxed{(4,\\,2)}$\n\n### Variasi 3 (⭐3/5, sedang — koefisien pecahan, jawaban pecahan)\n\n> [!soal] Soal 3\n> $$\n> \\begin{cases}\n> \\frac{x}{2}+\\frac{y}{3}=4\\\\\n> 2x-y=5\n> \\end{cases}\n> $$\n\n> [!hint]- Hint 3\n> Bersihkan pecahan dulu: kalikan (1) dengan 6 → $3x+2y=24$. Dari (2): $y=2x-5$.\n\n> [!jawab]- Jawaban + Pembahasan 3\n> Substitusi: $3x+2(2x-5)=24 \\Rightarrow 7x=34 \\Rightarrow x=\\frac{34}{7}$, $y=2\\cdot\\frac{34}{7}-5=\\frac{33}{7}$. Cek via SymPy ✅.\n> Jawaban: $\\boxed{\\left(\\frac{34}{7},\\,\\frac{33}{7}\\right)}$\n\n### Variasi 4 (⭐4/5, sulit — pecahan di kedua persamaan)\n\n> [!soal] Soal 4\n> $$\n> \\begin{cases}\n> \\frac{x}{2}+\\frac{y}{3}=4\\\\\n> x-\\frac{y}{2}=1\n> \\end{cases}\n> $$\n\n> [!hint]- Hint 4\n> Kalikan (1) dengan 6 → $3x+2y=24$, kalikan (2) dengan 2 → $2x-y=2$. Lalu eliminasi $y$.\n\n> [!jawab]- Jawaban + Pembahasan 4\n> Dari (2'): $y=2x-2$. Substitusi: $3x+2(2x-2)=24 \\Rightarrow 7x=28 \\Rightarrow x=4$, $y=6$. Cek: $\\frac{4}{2}+\\frac{6}{3}=2+2=4$ ✅, $4-\\frac{6}{2}=1$ ✅.\n> Jawaban: $\\boxed{(4,\\,6)}$\n\n### Variasi 5 (⭐5/5, olimpiade — Diophantine)\n\n> [!soal] Soal 5\n> Tentukan semua pasangan bilangan bulat taknegatif $(x,y)$ yang memenuhi $3x+5y=26$.\n\n> [!hint]- Hint 5\n> Modulo 3: $5y \\equiv 26 \\pmod{3} \\Rightarrow 2y \\equiv 2 \\pmod{3} \\Rightarrow y \\equiv 1 \\pmod{3}$. Coba $y=1,4,7,\\dots$ sampai $5y \\le 26$.\n\n> [!jawab]- Jawaban + Pembahasan 5\n> $y=1 \\Rightarrow 3x=21 \\Rightarrow x=7$. $y=4 \\Rightarrow 3x=6 \\Rightarrow x=2$. $y=7 \\Rightarrow 3x=-9$ (tolak, $x<0$). Exhaustive check SymPy ✅.\n> Jawaban: $\\boxed{(7,\\,1)\\text{ dan }(2,\\,4)}$\n\n| Variasi | Konsep diuji | Jebakan umum |\n|---|---|---|\n| 1 (⭐1) | Eliminasi langsung jumlah–selisih | Salah tanda saat mengurangkan |\n| 2 (⭐2) | Eliminasi dengan pengali | Lupa mengalikan SEMUA suku |\n| 3 (⭐3) | Pecahan + substitusi, jawaban pecahan | Panik lihat pecahan; tidak membersihkan penyebut dulu |\n| 4 (⭐4) | Pecahan di dua persamaan | KPK penyebut salah (6 vs 2) |\n| 5 (⭐5) | Diophantine linear, modulo + batas | Solusi negatif ikut kehitung; lupa syarat taknegatif |\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"SPLDV\") OR contains(topik, \"Aljabar\") OR contains(topik, \"Pythagoras\")\nLIMIT 10\n```\n\n---\n#flashcards\nMetode tercepat SPLDV ini?::Substitusi $x=y+1$ dari persamaan kedua, dapat $(3,2)$.\n\nSolusi SPLDV $2x+3y=12$, $x-y=1$?::$\\boxed{(3,2)}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "2x+3y=12\nx-y=1"
+    ],
+    "flashcards": [
+     "Metode tercepat SPLDV ini? :: Substitusi $x=y+1$ dari persamaan kedua, dapat $(3,2)$.",
+     "Solusi SPLDV $2x+3y=12$, $x-y=1$? :: $\\boxed{(3,2)}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "SPLDV-02-Eliminasi-Dasar",
+    "title": "✏️ Soal: SPLDV-02 Eliminasi Dasar (SMA, ⭐2)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\SPLDV-02-Eliminasi-Dasar.md",
+    "topic": "SPLDV",
+    "level": "SMA",
+    "difficulty": "2",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: SPLDV-02 Eliminasi Dasar (SMA, ⭐2) Data: 3x+2y=16 , x+y=6 . Ditanya: (x,y) yang memenuhi keduanya. Visual (Desmos — interseksi dua garis) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐1) \\begin{cases}x+y=5\\\\x-y=1\\end{cases} → \\boxed{(3,\\,2)} . 2. (⭐3) Induk soal ini: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] ( \\boxed{(3,\\,2)} ). 3. (⭐4) Versi pecahan: [[20-Latihan-Soal/SMA/SPLDV-03-Pecahan|SPLDV-03]] ( \\boxed{(4,\\,6)} ). 🔗 Teori Ter",
+    "body": "# ✏️ Soal: SPLDV-02 Eliminasi Dasar (SMA, ⭐2)\n\n> [!soal] 📝 Soal\n> Tentukan himpunan penyelesaian dari sistem:\n> $$\n> \\begin{cases}\n> 3x+2y=16\\\\\n> x+y=6\n> \\end{cases}\n> $$\n\n**Data:** $3x+2y=16$, $x+y=6$.\n**Ditanya:** $(x,y)$ yang memenuhi keduanya.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Eliminasi $y$: kalikan persamaan (2) dengan 2 agar koefisien $y$ sama.\n> **Hint 2:** $2\\times(2)$: $2x+2y=12$. Kurangkan dari (1).\n> **Hint 3:** $x = 16-12 = 4$, lalu $y = 6-4 = 2$. Cek balik!\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{(4,\\,2)}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** $2\\times(x+y=6)$ → $2x+2y=12$.\n> **Langkah 2:** $(3x+2y)-(2x+2y) = 16-12 \\Rightarrow x=4$.\n> **Langkah 3:** $4+y=6 \\Rightarrow y=2$.\n> **Cek:** $3(4)+2(2)=12+4=16$ ✅, $4+2=6$ ✅.\n\n## Visual (Desmos — interseksi dua garis)\n\n```desmos-graph\n3x+2y=16\nx+y=6\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nx, y = sp.symbols('x y')\nprint(sp.solve([3*x+2*y-16, x+y-6], (x, y)))  # {x: 4, y: 2}\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐1) $\\begin{cases}x+y=5\\\\x-y=1\\end{cases}$ → $\\boxed{(3,\\,2)}$.\n2. (⭐3) Induk soal ini: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] ($\\boxed{(3,\\,2)}$).\n3. (⭐4) Versi pecahan: [[20-Latihan-Soal/SMA/SPLDV-03-Pecahan|SPLDV-03]] ($\\boxed{(4,\\,6)}$).\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\nTeori utama: [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV Eliminasi dan Substitusi]].\n\n---\n#flashcards\nKunci eliminasi SPLDV-02?::Samakan koefisien $y$ (kali 2), kurangkan, dapat $x=4$.\n\nSolusi $3x+2y=16$, $x+y=6$?::$\\boxed{(4,2)}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "3x+2y=16\nx+y=6"
+    ],
+    "flashcards": [
+     "Kunci eliminasi SPLDV-02? :: Samakan koefisien $y$ (kali 2), kurangkan, dapat $x=4$.",
+     "Solusi $3x+2y=16$, $x+y=6$? :: $\\boxed{(4,2)}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "SPLDV-03-Pecahan",
+    "title": "✏️ Soal: SPLDV-03 Pecahan (SMA, ⭐4)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\SPLDV-03-Pecahan.md",
+    "topic": "SPLDV",
+    "level": "SMA",
+    "difficulty": "4",
+    "status": "belum",
+    "tags": "[soal, review, aljabar]",
+    "excerpt": "✏️ Soal: SPLDV-03 Pecahan (SMA, ⭐4) Data: Pecahan berpenyebut 2 dan 3. Ditanya: (x,y) yang memenuhi keduanya. Visual (Desmos — interseksi dua garis) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) Versi bulat: [[20-Latihan-Soal/SMA/SPLDV-02-Eliminasi-Dasar|SPLDV-02]] ( \\boxed{(4,\\,2)} ). 2. (⭐3) Induk soal ini: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] ( \\boxed{(3,\\,2)} ). 3. (⭐3) \\begin{cases}\\frac{x}{2}+\\frac{y}{3}=4\\\\2x-y=5\\end{cases} → ",
+    "body": "# ✏️ Soal: SPLDV-03 Pecahan (SMA, ⭐4)\n\n> [!soal] 📝 Soal\n> Tentukan himpunan penyelesaian dari sistem berpecahan:\n> $$\n> \\begin{cases}\n> \\frac{x}{2}+\\frac{y}{3}=4\\\\\n> x-\\frac{y}{2}=1\n> \\end{cases}\n> $$\n\n**Data:** Pecahan berpenyebut 2 dan 3.\n**Ditanya:** $(x,y)$ yang memenuhi keduanya.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Bersihkan pecahan DULU: (1)$\\times 6$ → $3x+2y=24$; (2)$\\times 2$ → $2x-y=2$.\n> **Hint 2:** Dari (2'): $y = 2x-2$. Substitusi ke (1').\n> **Hint 3:** $3x+2(2x-2)=24 \\Rightarrow 7x=28$. Cek balik ke pecahan asli!\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{(4,\\,6)}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** (1)$\\times 6$: $3x+2y=24$. (2)$\\times 2$: $2x-y=2$.\n> **Langkah 2:** $y = 2x-2$ → $3x+2(2x-2)=24 \\Rightarrow 7x-4=24 \\Rightarrow x=4$.\n> **Langkah 3:** $y = 2(4)-2 = 6$.\n> **Cek:** $\\frac{4}{2}+\\frac{6}{3}=2+2=4$ ✅, $4-\\frac{6}{2}=4-3=1$ ✅.\n\n## Visual (Desmos — interseksi dua garis)\n\n```desmos-graph\nx/2+y/3=4\nx-y/2=1\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nx, y = sp.symbols('x y')\nprint(sp.solve([x/2+y/3-4, x-y/2-1], (x, y)))  # {x: 4, y: 6}\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) Versi bulat: [[20-Latihan-Soal/SMA/SPLDV-02-Eliminasi-Dasar|SPLDV-02]] ($\\boxed{(4,\\,2)}$).\n2. (⭐3) Induk soal ini: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] ($\\boxed{(3,\\,2)}$).\n3. (⭐3) $\\begin{cases}\\frac{x}{2}+\\frac{y}{3}=4\\\\2x-y=5\\end{cases}$ → $\\boxed{\\left(\\frac{34}{7},\\,\\frac{33}{7}\\right)}$ (jawaban pecahan — berani?).\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\nTeori utama: [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV Eliminasi dan Substitusi]].\n\n---\n#flashcards\nLangkah pertama SPLDV pecahan?::Kalikan tiap persamaan dengan KPK penyebutnya.\n\nSolusi pecahan di atas?::$\\boxed{(4,6)}$ via $3x+2y=24$, $2x-y=2$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "x/2+y/3=4\nx-y/2=1"
+    ],
+    "flashcards": [
+     "Langkah pertama SPLDV pecahan? :: Kalikan tiap persamaan dengan KPK penyebutnya.",
+     "Solusi pecahan di atas? :: $\\boxed{(4,6)}$ via $3x+2y=24$, $2x-y=2$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "Trigonometri-01-Identitas",
+    "title": "✏️ Soal: Trigonometri-01 Identitas (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\SMA\\Trigonometri-01-Identitas.md",
+    "topic": "Trigonometri",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review, trigonometri]",
+    "excerpt": "✏️ Soal: Trigonometri-01 Identitas (SMA, ⭐3) Data: \\sin x = \\frac{3}{5} , x di kuadran I. Ditanya: \\cos x + \\tan x . Visual (Desmos — lingkaran satuan) Versi iframe (jika plugin Desmos mati): GeoGebra alternatif ( Alt+G ): Komputasi (Python — plugin Execute Code, offline) 🔄 Variasi Soal (awal — lengkapi jadi 5 via /variasi ) 1. (⭐2) \\sin x = \\frac{5}{13} lancip, tentukan \\cos x + \\tan x . Jawaban: \\boxed{\\frac{209}{156}} . 2. (⭐3) Sederhanakan \\frac{1-\\cos^2x}{\\sin x} (syarat \\sin x \\neq 0 ). Jawaban: \\boxed{\\sin x} . 3. (⭐4) \\cos x = \\frac{8}{17} lancip, tentukan \\sin x + \\tan x . Jawaban: \\b",
+    "body": "# ✏️ Soal: Trigonometri-01 Identitas (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Diketahui $\\sin x = \\frac{3}{5}$ dengan $x$ sudut lancip. Tentukan nilai dari:\n> $$\n> \\cos x + \\tan x\n> $$\n\n**Data:** $\\sin x = \\frac{3}{5}$, $x$ di kuadran I.\n**Ditanya:** $\\cos x + \\tan x$.\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Cari $\\cos x$ dulu via $\\sin^2x+\\cos^2x=1$. Karena lancip, ambil akar positif.\n> **Hint 2:** $\\cos^2x = 1-\\frac{9}{25} = \\frac{16}{25}$, jadi $\\cos x = \\frac{4}{5}$.\n> **Hint 3:** $\\tan x = \\frac{\\sin x}{\\cos x}$, lalu samakan penyebut saat menjumlah.\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $\\boxed{\\frac{31}{20}}$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> **Langkah 1:** $\\cos x = \\sqrt{1-\\frac{9}{25}} = \\sqrt{\\frac{16}{25}} = \\frac{4}{5}$ (positif, lancip).\n> **Langkah 2:** $\\tan x = \\frac{3/5}{4/5} = \\frac{3}{4}$.\n> **Langkah 3:** $\\frac{4}{5}+\\frac{3}{4} = \\frac{16+15}{20} = \\frac{31}{20}$.\n> **Cek:** tripel 3-4-5 ✅, $\\sin^2+\\cos^2 = \\frac{9+16}{25}=1$ ✅.\n\n## Visual (Desmos — lingkaran satuan)\n\n```desmos-graph\nx^2+y^2=1\ny=\\frac{3}{5}\n```\n\nVersi iframe (jika plugin Desmos mati):\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\nGeoGebra alternatif (`Alt+G`):\n\n```html\n<iframe src=\"https://www.geogebra.org/calculator\" width=\"800\" height=\"600\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" allowfullscreen></iframe>\n```\n\n## Komputasi (Python — plugin Execute Code, offline)\n\n```python\nimport sympy as sp\nsinx = sp.Rational(3, 5)\ncosx = sp.sqrt(1 - sinx**2)  # positif, lancip\nprint(cosx, sinx/cosx, cosx + sinx/cosx)  # 4/5 3/4 31/20\n```\n\n## 🔄 Variasi Soal (awal — lengkapi jadi 5 via `/variasi`)\n\n1. (⭐2) $\\sin x = \\frac{5}{13}$ lancip, tentukan $\\cos x + \\tan x$. Jawaban: $\\boxed{\\frac{209}{156}}$.\n2. (⭐3) Sederhanakan $\\frac{1-\\cos^2x}{\\sin x}$ (syarat $\\sin x \\neq 0$). Jawaban: $\\boxed{\\sin x}$.\n3. (⭐4) $\\cos x = \\frac{8}{17}$ lancip, tentukan $\\sin x + \\tan x$. Jawaban: $\\boxed{\\frac{375}{136}}$.\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, this.topik)\nLIMIT 10\n```\n\n---\n#flashcards\nTripel 3-4-5 untuk sin 3/5?::$\\cos x=\\frac{4}{5}$, $\\tan x=\\frac{3}{4}$, jumlah $\\boxed{\\frac{31}{20}}$.\n\nCara cari cos dari sin yang diketahui?::$\\cos x=\\pm\\sqrt{1-\\sin^2x}$, tanda ikut kuadran.\n<!--SR:!2026-09-18,1,230-->\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed",
+     "https://www.geogebra.org/calculator"
+    ],
+    "desmos": [
+     "x^2+y^2=1\ny=\\frac{3}{5}"
+    ],
+    "flashcards": [
+     "Tripel 3-4-5 untuk sin 3/5? :: $\\cos x=\\frac{4}{5}$, $\\tan x=\\frac{3}{4}$, jumlah $\\boxed{\\frac{31}{20}}$.",
+     "Cara cari cos dari sin yang diketahui? :: $\\cos x=\\pm\\sqrt{1-\\sin^2x}$, tanda ikut kuadran."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "UTBK-01-Pola-Barisan",
+    "title": "✏️ Soal: Pola barisan UTBK (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\UTBK\\UTBK-01-Pola-Barisan.md",
+    "topic": "UTBK Pola",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Pola barisan UTBK (SMA, ⭐3) Data: lihat soal. Ditanya: lihat soal. Rencana: U_n = n(n+1)\\ \\text{(selisih }4,6,8,\\dots\\text{)} Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Suku ke-10 pola n(n+1) ?:: \\boxed{110} .",
+    "body": "# ✏️ Soal: Pola barisan UTBK (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Diketahui barisan $2, 6, 12, 20, 30, \\dots$ Tentukan suku ke-10.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$U_n = n(n+1)\\ \\text{(selisih }4,6,8,\\dots\\text{)}$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Selisih naik 2 → pola $n^2+n$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{110}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> $U_{10}=10\\cdot11=110$. Python: $10*11=110$ ✅.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(10*11)  # 110\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"UTBK Pola\")\nLIMIT 10\n```\n\n---\n#flashcards\nSuku ke-10 pola $n(n+1)$?::$\\boxed{110}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Suku ke-10 pola $n(n+1)$? :: $\\boxed{110}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "UTBK-02-Aljabar-Backsolving",
+    "title": "✏️ Soal: Backsolving SPLDV (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\UTBK\\UTBK-02-Aljabar-Backsolving.md",
+    "topic": "UTBK Aljabar",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Backsolving SPLDV (SMA, ⭐3) Data: lihat soal. Ditanya: lihat soal. Rencana: x+y=30,\\ x-y=8 \\Rightarrow x=19,\\ y=11 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Dua bilangan jumlah 30 selisih 8, kali?:: \\boxed{209} .",
+    "body": "# ✏️ Soal: Backsolving SPLDV (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Jumlah dua bilangan $30$, selisihnya $8$. Tentukan hasil kalinya.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$x+y=30,\\ x-y=8 \\Rightarrow x=19,\\ y=11$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Jumlahkan: $2x=38$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{209}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> $19\\cdot11=209$. Python ✅.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(19*11)  # 209\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"UTBK Aljabar\")\nLIMIT 10\n```\n\n---\n#flashcards\nDua bilangan jumlah 30 selisih 8, kali?::$\\boxed{209}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Dua bilangan jumlah 30 selisih 8, kali? :: $\\boxed{209}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "UTBK-03-Geometri-Ruang",
+    "title": "✏️ Soal: Volume gabungan UTBK (SMA, ⭐4)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\UTBK\\UTBK-03-Geometri-Ruang.md",
+    "topic": "UTBK Geometri",
+    "level": "SMA",
+    "difficulty": "4",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Volume gabungan UTBK (SMA, ⭐4) Data: lihat soal. Ditanya: lihat soal. Rencana: V = s^3-\\pi r^2t Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Kubus 6 minus silinder r2?:: \\boxed{984/7} .",
+    "body": "# ✏️ Soal: Volume gabungan UTBK (SMA, ⭐4)\n\n> [!soal] 📝 Soal\n> Kubus sisi $6$ dilubangi silinder ($r=2$, $t=6$, tembus). Tentukan volume sisa ($\\pi=22/7$).\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$V = s^3-\\pi r^2t$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** $216-\\pi\\cdot4\\cdot6$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{984/7}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> $216-528/7=(1512-528)/7=984/7=140\\tfrac47$. Jawaban $\\boxed{984/7}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nfrom fractions import Fraction as F; print(F(216,1)-F(22,7)*4*6)  # 984/7\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"UTBK Geometri\")\nLIMIT 10\n```\n\n---\n#flashcards\nKubus 6 minus silinder r2?::$\\boxed{984/7}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Kubus 6 minus silinder r2? :: $\\boxed{984/7}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "UTBK-04-Trigonometri-Terapan",
+    "title": "✏️ Soal: Ketinggian UTBK (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\UTBK\\UTBK-04-Trigonometri-Terapan.md",
+    "topic": "UTBK Trigonometri",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Ketinggian UTBK (SMA, ⭐3) Data: lihat soal. Ditanya: lihat soal. Rencana: h = d\\tan30^\\circ+1{,}5 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Elevasi 30°, jarak 30\\sqrt3 ?:: \\boxed{31{,}5\\text{ m}} .",
+    "body": "# ✏️ Soal: Ketinggian UTBK (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Pengamat melihat puncak gedung dengan sudut elevasi $30^\\circ$ dari jarak $30\\sqrt{3}$ m (tinggi mata 1,5 m). Tentukan tinggi gedung.\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$h = d\\tan30^\\circ+1{,}5$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** $\\tan30^\\circ=1/\\sqrt3$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{31{,}5\\ \\text{m}}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> $h=30+1{,}5=31{,}5$ m. Python ✅.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint(30*3**0.5/3**0.5+1.5)  # 31.5\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"UTBK Trigonometri\")\nLIMIT 10\n```\n\n---\n#flashcards\nElevasi 30°, jarak $30\\sqrt3$?::$\\boxed{31{,}5\\text{ m}}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Elevasi 30°, jarak $30\\sqrt3$? :: $\\boxed{31{,}5\\text{ m}}$."
+    ],
+    "pro_gated": true
+   },
+   {
+    "id": "UTBK-05-Peluang-Data",
+    "title": "✏️ Soal: Peluang + mean UTBK (SMA, ⭐3)",
+    "path": "C:\\Users\\realh\\math-native-vault\\20-Latihan-Soal\\UTBK\\UTBK-05-Peluang-Data.md",
+    "topic": "UTBK Peluang",
+    "level": "SMA",
+    "difficulty": "3",
+    "status": "belum",
+    "tags": "[soal, review]",
+    "excerpt": "✏️ Soal: Peluang + mean UTBK (SMA, ⭐3) Data: lihat soal. Ditanya: lihat soal. Rencana: \\bar{x}_{baru}=\\frac{5\\cdot8+12+4}{7}, \\quad P=2/6 Visual Komputasi (Python) 🔗 Teori Terkait --- flashcards Mean tetap 8 setelah tambah 12,4?:: \\boxed{8} .",
+    "body": "# ✏️ Soal: Peluang + mean UTBK (SMA, ⭐3)\n\n> [!soal] 📝 Soal\n> Rata-rata 5 data $8$. Ditambah data $12$ dan $4$. Tentukan rata-rata baru. Lalu: peluang dadu $\\ge5$?\n\n**Data:** lihat soal. **Ditanya:** lihat soal.\n**Rencana:** $$\\bar{x}_{baru}=\\frac{5\\cdot8+12+4}{7}, \\quad P=2/6$$\n\n> [!hint]- 💡 Petunjuk Bertahap (buka satu per satu)\n> **Hint 1:** Total lama $40$.\n> **Hint 2:** Eksekusi hitung + eliminasi opsi absurd.\n> **Hint 3:** Cek balik 10 detik (substitusi / digit terakhir).\n\n> [!jawab]- ✅ Jawaban Akhir (klik untuk buka)\n> $$\\boxed{8}$$\n\n> [!jawab]- 📖 Pembahasan Lengkap (klik untuk buka)\n> $\\bar{x}=56/7=8$. Peluang $1/3$. Jawaban $\\boxed{8,\\ 1/3}$.\n> **Cek:** konsisten ✅.\n\n## Visual\n\n```desmos-graph\ny=x\n```\n\n```html\n<iframe src=\"https://www.desmos.com/calculator?embed\" width=\"800\" height=\"500\" style=\"border:1px solid #ccc; border-radius:8px; max-width:100%;\" frameborder=\"0\"></iframe>\n```\n\n## Komputasi (Python)\n\n```python\nprint((5*8+12+4)/7, 2/6)  # 8.0 0.333\n```\n\n## 🔗 Teori Terkait\n\n```dataview\nTABLE WITHOUT ID file.link AS \"Teori\"\nFROM \"10-Teori\"\nWHERE contains(topik, \"UTBK Peluang\")\nLIMIT 10\n```\n\n---\n#flashcards\nMean tetap 8 setelah tambah 12,4?::$\\boxed{8}$.\n",
+    "visuals": [
+     "https://www.desmos.com/calculator?embed"
+    ],
+    "desmos": [
+     "y=x"
+    ],
+    "flashcards": [
+     "Mean tetap 8 setelah tambah 12,4? :: $\\boxed{8}$."
+    ],
+    "pro_gated": true
+   }
+  ],
+  "rumus": [
+   {
+    "id": "00-Latex-Cheat-Sheet",
+    "title": "⌨️ 00 — LaTeX Cheat Sheet (LaTeX Suite ready)",
+    "path": "C:\\Users\\realh\\math-native-vault\\40-Bank-Rumus\\00-Latex-Cheat-Sheet.md",
+    "topic": "",
+    "level": "",
+    "difficulty": "",
+    "status": "",
+    "tags": "",
+    "excerpt": "⌨️ 00 — LaTeX Cheat Sheet (LaTeX Suite ready) Trigger Wajib (custom vault ini) | Ketik | Hasil | LaTeX | |---|---|---| | dm + Tab | display math | ... | | // | pecahan | \\frac{a}{b} | | sq + Tab | akar | \\sqrt{x} | | sum + Tab | sigma | \\sum_{n=1}^{\\infty} | | int + Tab | integral | \\int_{a}^{b} f\\,dx | | lim + Tab | limit | \\lim_{x \\to \\infty} | | mat + Tab | matriks | \\begin{bmatrix}...\\end{bmatrix} | | case + Tab | cases | \\begin{cases}...\\end{cases} | | vec + Tab | vektor | \\vec{v} | | inf | takhingga | \\infty | Trigger Kunci (ketik + Tab, mode matematika) | Ketik + Tab | Hasil | LaTeX | |",
+    "body": "# ⌨️ 00 — LaTeX Cheat Sheet (LaTeX Suite ready)\n\n> Snippet LaTeX Suite default: ketik trigger lalu `Tab`. Semua snippet di bawah **tested di Obsidian + MathJax/KaTeX**.\n> Setting snippet: Settings → Latex Suite → cek `data.json` di `.obsidian/plugins/latex-suite/` bawaan vault ini.\n\n## Trigger Wajib (custom vault ini)\n\n| Ketik | Hasil | LaTeX |\n|---|---|---|\n| `dm` + Tab | display math | `$$...$$` |\n| `//` | pecahan | `\\frac{a}{b}` |\n| `sq` + Tab | akar | `\\sqrt{x}` |\n| `sum` + Tab | sigma | `\\sum_{n=1}^{\\infty}` |\n| `int` + Tab | integral | `\\int_{a}^{b} f\\,dx` |\n| `lim` + Tab | limit | `\\lim_{x \\to \\infty}` |\n| `mat` + Tab | matriks | `\\begin{bmatrix}...\\end{bmatrix}` |\n| `case` + Tab | cases | `\\begin{cases}...\\end{cases}` |\n| `vec` + Tab | vektor | `\\vec{v}` |\n| `inf` | takhingga | `\\infty` |\n\n## Trigger Kunci (ketik + Tab, mode matematika)\n\n> Sengaja pakai Tab (bukan otomatis) supaya tidak meledak di tengah kata\n> seperti \"katalog\" atau \"kombinasi\". Daftar ini tersimpan di\n> `.obsidian/plugins/obsidian-latex-suite/data.json`.\n\n| Ketik + Tab | Hasil | LaTeX |\n|---|---|---|\n| `log` | logaritma basis | `\\log_{10}(x)` |\n| `komb` | kombinasi | `\\binom{n}{k}` |\n| `box` | kotak jawaban | `\\boxed{...}` |\n| `sist` | sistem 2 persamaan | `\\begin{cases}...\\end{cases}` |\n| `ak3` | akar pangkat-n | `\\sqrt[3]{x}` |\n| `der` | turunan Leibniz | `\\frac{dy}{dx}` |\n| `detm` | determinan | `\\begin{vmatrix}...\\end{vmatrix}` |\n| `bar` | rata-rata | `\\bar{x}` |\n| `hat` | estimator | `\\hat{y}` |\n\n## Kamus Typo (dicek otomatis via `python 97-System/verify-vault.py`)\n\n| Typo | Betul |\n|---|---|\n| `\\farc` | `\\frac` |\n| `\\sqt` `\\srt` | `\\sqrt` |\n| `\\itn` | `\\int` |\n| `\\sium` | `\\sum` |\n| `\\liim` | `\\lim` |\n| `\\ifnty` | `\\infty` |\n\n> Aturan cepat: perintah LaTeX selalu diawali `\\` + huruf kecil semua\n> (`\\log` bukan `log`), kurung `{}` selalu berpasangan, dan sistem\n> persamaan selalu `\\begin{cases}` … `\\end{cases}`.\n\n## Snippet Bawaan LaTeX Suite (sering dipakai)\n\n| Ketik | Hasil |\n|---|---|\n| `a/b` (spasi) | `\\frac{a}{b}` otomatis |\n| `sqx` | `\\sqrt{x}` |\n| `@a` `@b` `@g` ... | `\\alpha \\beta \\gamma` |\n| `sin` `cos` `ln` + spasi | `\\sin \\cos \\ln` upright |\n| `(` `(` / `[` `[` | `\\left( \\right)` auto-besar |\n| `mk` | `$...$` inline math |\n| `...` | `\\cdots`, `->` → `\\to`, `<=` → `\\le`, `>=` → `\\ge` |\n\n## Contoh Teruji (copy-paste harus render)\n\nInline: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$, vektor $\\vec{F} = m\\vec{a}$, limit $\\lim_{x \\to 0}\\frac{\\sin x}{x} = 1$.\n\nDisplay:\n$$\n\\int_{0}^{1} x^2 \\, dx = \\frac{1}{3}, \\quad \\sum_{n=1}^{\\infty}\\frac{1}{n^2} = \\frac{\\pi^2}{6}\n$$\n\n$$\n\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}\n\\begin{pmatrix} x \\\\ y \\end{pmatrix}\n=\n\\begin{cases}\nax + by \\\\\ncx + dy\n\\end{cases}\n$$\n\n$$\n\\lim_{x \\to \\infty}\\left(1 + \\frac{1}{x}\\right)^x = e\n$$\n\n## Flashcard Rumus (auto SR, tag #review)\n\nRumus abc?::Akar $ax^2+bx+c=0$ adalah $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.\n\nJumlah deret geometri?::$\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}$, $|r|<1$.\n\n---\ntags: [rumus, review]\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [
+     "Rumus abc? :: Akar $ax^2+bx+c=0$ adalah $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+     "Jumlah deret geometri? :: $\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}$, $|r|<1$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Rumus-Aljabar",
+    "title": "Rumus Aljabar Inti",
+    "path": "C:\\Users\\realh\\math-native-vault\\40-Bank-Rumus\\Rumus-Aljabar.md",
+    "topic": "Aljabar",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[rumus, review]",
+    "excerpt": "Rumus Aljabar Inti Kuadrat (a \\pm b)^2 = a^2 \\pm 2ab + b^2, \\quad a^2-b^2=(a-b)(a+b) x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}, \\quad \\Delta = b^2-4ac Pangkat & Log a^m \\cdot a^n = a^{m+n}, \\quad (a^m)^n = a^{mn}, \\quad \\log(ab)=\\log a+\\log b \\log_a b = \\frac{\\ln b}{\\ln a}, \\quad a^{\\log_a b} = b Barisan & Deret U_n = a+(n-1)b, \\quad S_n = \\frac{n}{2}(2a+(n-1)b) U_n = ar^{n-1}, \\quad S_n = a\\frac{1-r^n}{1-r}, \\quad S_\\infty = \\frac{a}{1-r}\\ (|r|<1) SPLDV D = a_1b_2-a_2b_1 \\neq 0, \\quad x = \\frac{c_1b_2-c_2b_1}{D}, \\quad y = \\frac{a_1c_2-a_2c_1}{D} Polinomial P(x) = (x-c)Q(x)+P(c), \\quad (x-c)\\text{",
+    "body": "# Rumus Aljabar Inti\n\n## Kuadrat\n$$\n(a \\pm b)^2 = a^2 \\pm 2ab + b^2, \\quad a^2-b^2=(a-b)(a+b)\n$$\n$$\nx = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}, \\quad \\Delta = b^2-4ac\n$$\n\n## Pangkat & Log\n$$\na^m \\cdot a^n = a^{m+n}, \\quad (a^m)^n = a^{mn}, \\quad \\log(ab)=\\log a+\\log b\n$$\n$$\n\\log_a b = \\frac{\\ln b}{\\ln a}, \\quad a^{\\log_a b} = b\n$$\n\n## Barisan & Deret\n$$\nU_n = a+(n-1)b, \\quad S_n = \\frac{n}{2}(2a+(n-1)b)\n$$\n$$\nU_n = ar^{n-1}, \\quad S_n = a\\frac{1-r^n}{1-r}, \\quad S_\\infty = \\frac{a}{1-r}\\ (|r|<1)\n$$\n\n## SPLDV\n$$\nD = a_1b_2-a_2b_1 \\neq 0, \\quad x = \\frac{c_1b_2-c_2b_1}{D}, \\quad y = \\frac{a_1c_2-a_2c_1}{D}\n$$\n\n## Polinomial\n$$\nP(x) = (x-c)Q(x)+P(c), \\quad (x-c)\\text{ faktor }P(x) \\iff P(c) = 0\n$$\n\n## Matriks 2x2\n$$\n\\det\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix} = ad-bc, \\quad A^{-1} = \\frac{1}{\\det A}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\n$$\n\n---\nRumus abc?::Akar $ax^2+bx+c=0$ adalah $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [
+     "Rumus abc? :: Akar $ax^2+bx+c=0$ adalah $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Rumus-Geometri-Trigonometri",
+    "title": "Rumus Geometri & Trigonometri Inti",
+    "path": "C:\\Users\\realh\\math-native-vault\\40-Bank-Rumus\\Rumus-Geometri-Trigonometri.md",
+    "topic": "Geometri, Trigonometri",
+    "level": "SMA",
+    "difficulty": "",
+    "status": "",
+    "tags": "[rumus, review]",
+    "excerpt": "Rumus Geometri & Trigonometri Inti Pythagoras & Luas a^2+b^2=c^2, \\quad L_\\triangle=\\frac{1}{2}ab\\sin C = \\frac{abc}{4R} = rs L_\\bigcirc = \\pi r^2, \\quad K = 2\\pi r, \\quad V_{bola}=\\frac{4}{3}\\pi r^3 Trigonometri \\sin^2\\theta+\\cos^2\\theta=1, \\quad \\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta} \\sin(A\\pm B)=\\sin A\\cos B \\pm \\cos A\\sin B \\cos(A\\pm B)=\\cos A\\cos B \\mp \\sin A\\sin B 1+\\tan^2\\theta = \\sec^2\\theta, \\quad 1+\\cot^2\\theta = \\csc^2\\theta Aturan sinus: \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R . Aturan cosinus: c^2=a^2+b^2-2ab\\cos C . --- Identitas dasar?:: \\sin^2\\theta + \\cos^2\\the",
+    "body": "# Rumus Geometri & Trigonometri Inti\n\n## Pythagoras & Luas\n$$\na^2+b^2=c^2, \\quad L_\\triangle=\\frac{1}{2}ab\\sin C = \\frac{abc}{4R} = rs\n$$\n$$\nL_\\bigcirc = \\pi r^2, \\quad K = 2\\pi r, \\quad V_{bola}=\\frac{4}{3}\\pi r^3\n$$\n\n## Trigonometri\n$$\n\\sin^2\\theta+\\cos^2\\theta=1, \\quad \\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}\n$$\n$$\n\\sin(A\\pm B)=\\sin A\\cos B \\pm \\cos A\\sin B\n$$\n$$\n\\cos(A\\pm B)=\\cos A\\cos B \\mp \\sin A\\sin B\n$$\n$$\n1+\\tan^2\\theta = \\sec^2\\theta, \\quad 1+\\cot^2\\theta = \\csc^2\\theta\n$$\nAturan sinus: $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R$. Aturan cosinus: $c^2=a^2+b^2-2ab\\cos C$.\n\n---\nIdentitas dasar?::$\\sin^2\\theta + \\cos^2\\theta = 1$.\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [
+     "Identitas dasar? :: $\\sin^2\\theta + \\cos^2\\theta = 1$."
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Rumus-Kalkulus",
+    "title": "Rumus Kalkulus Inti",
+    "path": "C:\\Users\\realh\\math-native-vault\\40-Bank-Rumus\\Rumus-Kalkulus.md",
+    "topic": "Kalkulus",
+    "level": "Universitas",
+    "difficulty": "",
+    "status": "",
+    "tags": "[rumus, review]",
+    "excerpt": "Rumus Kalkulus Inti Limit \\lim_{x\\to c}f(x) = L, \\quad \\frac{0}{0}\\Rightarrow\\text{faktorkan, coret }(x-c),\\text{ substitusi} \\lim_{x\\to 1}\\frac{x^2-1}{x-1} = 2, \\quad a^3-b^3 = (a-b)(a^2+ab+b^2) Turunan \\frac{d}{dx}x^n = nx^{n-1}, \\quad \\frac{d}{dx}e^x=e^x, \\quad \\frac{d}{dx}\\ln x=\\frac{1}{x} (fg)'=f'g+fg', \\quad \\left(\\frac{f}{g}\\right)'=\\frac{f'g-fg'}{g^2}, \\quad \\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx} Integral \\int x^n dx = \\frac{x^{n+1}}{n+1}+C, \\quad \\int e^x dx = e^x+C \\int u\\,dv = uv - \\int v\\,du, \\quad \\int_a^b f = F(b)-F(a) Deret Taylor e^x = \\sum_{n=0}^{\\infty}\\frac{x^n}{n!}, \\quad",
+    "body": "# Rumus Kalkulus Inti\n\n## Limit\n$$\n\\lim_{x\\to c}f(x) = L, \\quad \\frac{0}{0}\\Rightarrow\\text{faktorkan, coret }(x-c),\\text{ substitusi}\n$$\n$$\n\\lim_{x\\to 1}\\frac{x^2-1}{x-1} = 2, \\quad a^3-b^3 = (a-b)(a^2+ab+b^2)\n$$\n\n## Turunan\n$$\n\\frac{d}{dx}x^n = nx^{n-1}, \\quad \\frac{d}{dx}e^x=e^x, \\quad \\frac{d}{dx}\\ln x=\\frac{1}{x}\n$$\n$$\n(fg)'=f'g+fg', \\quad \\left(\\frac{f}{g}\\right)'=\\frac{f'g-fg'}{g^2}, \\quad \\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}\n$$\n\n## Integral\n$$\n\\int x^n dx = \\frac{x^{n+1}}{n+1}+C, \\quad \\int e^x dx = e^x+C\n$$\n$$\n\\int u\\,dv = uv - \\int v\\,du, \\quad \\int_a^b f = F(b)-F(a)\n$$\n\n## Deret Taylor\n$$\ne^x = \\sum_{n=0}^{\\infty}\\frac{x^n}{n!}, \\quad \\sin x = \\sum_{n=0}^{\\infty}\\frac{(-1)^n x^{2n+1}}{(2n+1)!}\n$$\n\n---\nTurunan $\\sin x$?::$\\frac{d}{dx}\\sin x = \\cos x$.\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [
+     "Turunan $\\sin x$? :: $\\frac{d}{dx}\\sin x = \\cos x$."
+    ],
+    "pro_gated": false
+   }
+  ],
+  "projek": [
+   {
+    "id": "Learning-Path-SMA-30-Hari",
+    "title": "🗺️ Learning Path SMA Menengah–Lanjut — 30 Hari",
+    "path": "C:\\Users\\realh\\math-native-vault\\50-Projek-Eksplorasi\\Learning-Path-SMA-30-Hari.md",
+    "topic": "",
+    "level": "",
+    "difficulty": "",
+    "status": "",
+    "tags": "",
+    "excerpt": "🗺️ Learning Path SMA Menengah–Lanjut — 30 Hari Minggu 1 — Fondasi (prasyarat + konsep inti) - [ ] H1 (35 mnt): Teori [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] → drill tripel 6-8-? dan 5-?-13 → flashcard Teorema Pythagoras menyatakan?::... - [ ] H2 (40 mnt): Teori [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV]] → [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] inti → flashcard Solusi SPLDV 2x+3y=12, x-y=1?::... - [ ] H3 (40 mnt): Teori [[10-Teori/02-Aljabar/Fungsi-Kuadrat-Diskriminan|Fungsi Kuadrat]] → [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskrimi",
+    "body": "# 🗺️ Learning Path SMA Menengah–Lanjut — 30 Hari\n\n> Fokus: SPLDV pecahan, fungsi kuadrat, trigonometri, limit, polinomial.\n> 30–45 mnt/hari. Semua link di bawah menunjuk file yang ADA di vault.\n> Kriteria lulus: skor latihan mingguan ≥ 80%.\n\n## Minggu 1 — Fondasi (prasyarat + konsep inti)\n\n- [ ] **H1 (35 mnt):** Teori [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] → drill tripel 6-8-? dan 5-?-13 → flashcard `Teorema Pythagoras menyatakan?::...`\n- [ ] **H2 (40 mnt):** Teori [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV]] → [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] inti → flashcard `Solusi SPLDV 2x+3y=12, x-y=1?::...`\n- [ ] **H3 (40 mnt):** Teori [[10-Teori/02-Aljabar/Fungsi-Kuadrat-Diskriminan|Fungsi Kuadrat]] → [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Kuadrat-01]] → flashcard `Diskriminan?::...`\n- [ ] **H4 (40 mnt):** Teori [[10-Teori/04-Trigonometri/Identitas-Trigonometri|Trigonometri]] → [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Trigo-01]] → flashcard `sin²+cos²?::...`\n- [ ] **H5 (40 mnt):** Teori [[10-Teori/05-Kalkulus/Limit-Fungsi-Aljabar|Limit]] → [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Limit-01]] → flashcard `limit 0/0?::...`\n- [ ] **H6 (45 mnt):** [[20-Latihan-Soal/SMA/Polinomial-01-Teorema-Sisa|Polinomial-01]] + teori [[10-Teori/02-Aljabar/Polinomial-Teorema-Sisa|Polinomial]] → flashcard `Teorema sisa?::...`\n- [ ] **H7 (30 mnt):** Review SR semua flashcard minggu ini (`Alt+R` per note) → catat topik terlemah 1 kalimat.\n\n## Minggu 2 — Inti ⭐2–⭐3 (kecepatan + akurasi)\n\n- [ ] **H8 (35 mnt):** SPLDV-01 Variasi ⭐1 (< 3 mnt) + ⭐2 (< 5 mnt) + Kuadrat-01 Variasi 1 → flashcard D=0?\n- [ ] **H9 (40 mnt):** Trigo-01 Variasi 1 + 2 + Limit-01 Variasi 1 → flashcard tanda kuadran?\n- [ ] **H10 (40 mnt):** Kuadrat-01 Variasi 2 (D>0) + Limit-01 Variasi 2 (kubik) → catat waktu tiap soal.\n- [ ] **H11 (45 mnt):** Polinomial-01 Variasi 1 + 2 + SPLDV-01 Variasi ⭐3 pecahan → fokus: bersihkan penyebut dulu.\n- [ ] **H12 (40 mnt):** Trigo-01 Variasi 3 + Kuadrat-01 Variasi 3 (Vieta) → flashcard jumlah/hasil akar?\n- [ ] **H13 (45 mnt):** Campuran 3 soal: SPLDV-01 inti + Trigo-01 inti + Limit-01 inti, target ≥ 2 ✅.\n- [ ] **H14 (30 mnt):** Tryout mini 5 soal (1 per topik, dari variasi ⭐2), skor __/5. Lulus jika ≥ 4.\n\n## Minggu 3 — Inti ⭐3–⭐4 (pecahan + penalaran)\n\n- [ ] **H15 (40 mnt):** SPLDV-01 Variasi ⭐4 pecahan + Limit-01 Variasi 3 → flashcard KPK penyebut?\n- [ ] **H16 (40 mnt):** Polinomial-01 inti (ulang tanpa hint) + Variasi 2 → flashcard teorema faktor?\n- [ ] **H17 (45 mnt):** Kuadrat-01 inti (ulang) + Trigo-01 inti (ulang), target ✅ < 5 mnt tiap soal.\n- [ ] **H18 (45 mnt):** Limit-01 inti + SPLDV-01 Variasi ⭐3, tulis pembahasan sendiri lalu cocokkan dengan note.\n- [ ] **H19 (40 mnt):** Polinomial-01 Variasi 3 (faktor penuh kubik) + review [[40-Bank-Rumus/Rumus-Aljabar|Rumus Aljabar]].\n- [ ] **H20 (45 mnt):** Campuran 4 soal ⭐3–⭐4 lintas topik, catat waktu + jebakan yang kena.\n- [ ] **H21 (30 mnt):** Tryout mini 5 soal ⭐3, skor __/5. Lulus jika ≥ 4.\n\n## Minggu 4 — Tryout + Review SR\n\n- [ ] **H22 (40 mnt):** SPLDV-01 Variasi ⭐5 (Diophantine) + Polinomial-01 Variasi 3 → flashcard modulo?\n- [ ] **H23 (40 mnt):** Review teori terlemah (pilih 1 dari 5 teori) + kerjakan ulang soal intinya.\n- [ ] **H24 (45 mnt):** Tryout campuran 6 soal (SPLDV-01, Kuadrat-01, Trigo-01, Limit-01, Polinomial-01 + 1 variasi), skor __/6.\n- [ ] **H25 (40 mnt):** Bedah tryout: tiap ❌ tulis 1 baris sebab + 1 flashcard baru di note terkait.\n- [ ] **H26 (40 mnt):** Review SR semua tag `#review` (`Ctrl+Shift+R`) + [[40-Bank-Rumus/00-Latex-Cheat-Sheet|Cheat Sheet]].\n- [ ] **H27 (45 mnt):** Tryout final 6 soal (acak dari 5 file soal + variasi), skor __/6. Lulus jika ≥ 5.\n- [ ] **H28–H30 (30 mnt/hari):** Cadangan: ulang yang ❌ + baca [[60-Daily-Practice/Dashboard|Dashboard]] + rencanakan siklus berikutnya (`/daily`).\n\n## Milestone mingguan\n\n| Minggu | Target | Kriteria lulus |\n|---|---|---|\n| 1 Fondasi | Paham 5 teori + 5 soal inti | Bisa jelaskan tiap rumus tanpa buka note |\n| 2 Inti ⭐2–⭐3 | Tryout H14 ≥ 4/5 | Rata-rata < 5 mnt/soal ⭐2 |\n| 3 Inti ⭐3–⭐4 | Tryout H21 ≥ 4/5 | Pecahan tidak lagi jebakan utama |\n| 4 Tryout | Final H27 ≥ 5/6 | Skor ≥ 80% + SR bersih |\n\n---\n🔗 Bank soal: [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] • [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Kuadrat-01]] • [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Trigo-01]] • [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Limit-01]] • [[20-Latihan-Soal/SMA/Polinomial-01-Teorema-Sisa|Polinomial-01]]\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [
+     "- [ ] **H1 (35 mnt):** Teori [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]] → drill tripel 6-8-? dan 5-?-13 → flashcard `Teorema Pythagoras menyatakan? :: ...`",
+     "- [ ] **H2 (40 mnt):** Teori [[10-Teori/02-Aljabar/SPLDV-Eliminasi-Substitusi|SPLDV]] → [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] inti → flashcard `Solusi SPLDV 2x+3y=12, x-y=1? :: ...`",
+     "- [ ] **H3 (40 mnt):** Teori [[10-Teori/02-Aljabar/Fungsi-Kuadrat-Diskriminan|Fungsi Kuadrat]] → [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Kuadrat-01]] → flashcard `Diskriminan? :: ...`",
+     "- [ ] **H4 (40 mnt):** Teori [[10-Teori/04-Trigonometri/Identitas-Trigonometri|Trigonometri]] → [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Trigo-01]] → flashcard `sin²+cos²? :: ...`",
+     "- [ ] **H5 (40 mnt):** Teori [[10-Teori/05-Kalkulus/Limit-Fungsi-Aljabar|Limit]] → [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Limit-01]] → flashcard `limit 0/0? :: ...`",
+     "- [ ] **H6 (45 mnt):** [[20-Latihan-Soal/SMA/Polinomial-01-Teorema-Sisa|Polinomial-01]] + teori [[10-Teori/02-Aljabar/Polinomial-Teorema-Sisa|Polinomial]] → flashcard `Teorema sisa? :: ...`"
+    ],
+    "pro_gated": false
+   },
+   {
+    "id": "Learning-Path-UTBK-OSN-14-Hari",
+    "title": "🗺️ Learning Path UTBK + OSN Matematika — 14 Hari",
+    "path": "C:\\Users\\realh\\math-native-vault\\50-Projek-Eksplorasi\\Learning-Path-UTBK-OSN-14-Hari.md",
+    "topic": "",
+    "level": "",
+    "difficulty": "",
+    "status": "",
+    "tags": "",
+    "excerpt": "🗺️ Learning Path UTBK + OSN Matematika — 14 Hari Jalur UTBK (H1–H10) - [ ] H1: [[10-Teori/08-UTBK/Strategi-Penalaran-Matematika|Strategi UTBK]] + [[10-Teori/08-UTBK/Hitung-Cepat-Aproksimasi|Hitung Cepat]] → flashcard pacing - [ ] H2: [[20-Latihan-Soal/UTBK/UTBK-01-Pola-Barisan|UTBK-01]] + [[20-Latihan-Soal/SMA/Barisan-Deret-01-Aritmetika|Barisan-01]] - [ ] H3: [[20-Latihan-Soal/UTBK/UTBK-02-Aljabar-Backsolving|UTBK-02]] + [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] - [ ] H4: [[20-Latihan-Soal/UTBK/UTBK-03-Geometri-Ruang|UTBK-03]] + review [[10-Teori/03-Geometri/Pythagoras-Vi",
+    "body": "# 🗺️ Learning Path UTBK + OSN Matematika — 14 Hari\n\n> 2 jalur paralel: **UTBK** (pacing 120 dtk/soal, target ≥80%) dan **OSN** (pembuktian + ketaksamaan).\n> 45–60 mnt/hari. Semua link menunjuk file yang ADA di vault.\n\n## Jalur UTBK (H1–H10)\n\n- [ ] **H1:** [[10-Teori/08-UTBK/Strategi-Penalaran-Matematika|Strategi UTBK]] + [[10-Teori/08-UTBK/Hitung-Cepat-Aproksimasi|Hitung Cepat]] → flashcard pacing\n- [ ] **H2:** [[20-Latihan-Soal/UTBK/UTBK-01-Pola-Barisan|UTBK-01]] + [[20-Latihan-Soal/SMA/Barisan-Deret-01-Aritmetika|Barisan-01]]\n- [ ] **H3:** [[20-Latihan-Soal/UTBK/UTBK-02-Aljabar-Backsolving|UTBK-02]] + [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]]\n- [ ] **H4:** [[20-Latihan-Soal/UTBK/UTBK-03-Geometri-Ruang|UTBK-03]] + review [[10-Teori/03-Geometri/Pythagoras-Visual-GeoGebra|Pythagoras]]\n- [ ] **H5:** [[20-Latihan-Soal/UTBK/UTBK-04-Trigonometri-Terapan|UTBK-04]] + [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Trigo-01]]\n- [ ] **H6:** [[20-Latihan-Soal/UTBK/UTBK-05-Peluang-Data|UTBK-05]] + [[10-Teori/06-Statistika-Probabilitas/Peluang-Kaidah-Cacah|Peluang]]\n- [ ] **H7:** [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Kuadrat-01]] + [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Limit-01]] (kecepatan)\n- [ ] **H8:** [[20-Latihan-Soal/SMA/Polinomial-01-Teorema-Sisa|Polinomial-01]] + [[20-Latihan-Soal/SMA/Matriks-01-Determinan-Invers|Matriks-01]]\n- [ ] **H9:** [[50-Projek-Eksplorasi/Tryout-UTBK-Matematika-01|Tryout UTBK-01]] penuh 20 mnt, skor __/10\n- [ ] **H10:** Bedah H9: tiap ❌ 1 baris sebab + 1 flashcard → ulang soal ❌ tanpa hint\n\n## Jalur OSN (H11–H14, butuh UTBK ≥7/10 dulu)\n\n- [ ] **H11:** [[10-Teori/07-Olimpiade/Teori-Bilangan-Modulo|Modulo]] → [[20-Latihan-Soal/Olimpiade/OSN-01-Modulo-Pangkat|OSN-01]] → tulis solusi rapi (bukti sisa)\n- [ ] **H12:** [[10-Teori/07-Olimpiade/Kombinatorika-Olimpiade|Kombinatorika]] → [[20-Latihan-Soal/Olimpiade/OSN-02-Kombinatorika-Jalan|OSN-02]] → cari 2 cara (bijection)\n- [ ] **H13:** [[10-Teori/07-Olimpiade/Ketaksamaan-AMGM-Cauchy|Ketaksamaan]] → [[20-Latihan-Soal/Olimpiade/OSN-03-Ketaksamaan-Minimum|OSN-03]] → cek syarat setara\n- [ ] **H14:** [[10-Teori/07-Olimpiade/Geometri-Olimpiade-Daya-Titik|Geometri OSN]] → [[20-Latihan-Soal/Olimpiade/OSN-04-Geometri-Siklik|OSN-04]] → gambar + klaim siklik\n\n## Milestone\n\n| Jalur | Target | Lulus jika |\n|---|---|---|\n| UTBK H9 | Tryout ≥ 8/10 | Pacing ≤120 dtk/soal |\n| OSN H11–14 | 4/4 solusi rapi | Tiap solusi ada cek syarat/bukti |\n\n---\n🔗 [[50-Projek-Eksplorasi/Tryout-UTBK-Matematika-01|Tryout UTBK-01]] • [[10-Teori/MOC-Teori|Peta Teori]] • [[20-Latihan-Soal/MOC-Soal|Peta Soal]]\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [],
+    "pro_gated": false
+   },
+   {
+    "id": "README",
+    "title": "🔬 50-Projek-Eksplorasi",
+    "path": "C:\\Users\\realh\\math-native-vault\\50-Projek-Eksplorasi\\README.md",
+    "topic": "",
+    "level": "",
+    "difficulty": "",
+    "status": "",
+    "tags": "",
+    "excerpt": "🔬 50-Projek-Eksplorasi Eksperimen: visual proof (Excalidraw), numerasi Python (blok python + Execute Code), applet GeoGebra custom. Satu folder per proyek, tautkan dari teori terkait.",
+    "body": "# 🔬 50-Projek-Eksplorasi\n\nEksperimen: visual proof (Excalidraw), numerasi Python (blok ```python + Execute Code), applet GeoGebra custom. Satu folder per proyek, tautkan dari teori terkait.\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [],
+    "pro_gated": false
+   },
+   {
+    "id": "Tryout-UTBK-Matematika-01",
+    "title": "⏱️ Tryout UTBK Matematika-01 (Paket 10 Soal, 20 Menit)",
+    "path": "C:\\Users\\realh\\math-native-vault\\50-Projek-Eksplorasi\\Tryout-UTBK-Matematika-01.md",
+    "topic": "",
+    "level": "",
+    "difficulty": "",
+    "status": "",
+    "tags": "",
+    "excerpt": "⏱️ Tryout UTBK Matematika-01 (Paket 10 Soal, 20 Menit) Soal (ringkas, pembahasan penuh di note masing-masing) - [ ] 1 (Pola): U_n=n(n+1) , U_{10}=? → [[20-Latihan-Soal/UTBK/UTBK-01-Pola-Barisan|UTBK-01]] — kunci \\boxed{110} - [ ] 2 (Aljabar): x+y=30 , x-y=8 , xy=? → [[20-Latihan-Soal/UTBK/UTBK-02-Aljabar-Backsolving|UTBK-02]] — kunci \\boxed{209} - [ ] 3 (Ruang): Kubus 6 minus silinder r=2 → [[20-Latihan-Soal/UTBK/UTBK-03-Geometri-Ruang|UTBK-03]] — kunci \\boxed{984/7} - [ ] 4 (Trigo): Elevasi 30^\\circ , d=30\\sqrt3 → [[20-Latihan-Soal/UTBK/UTBK-04-Trigonometri-Terapan|UTBK-04]] — kunci \\boxed{31",
+    "body": "# ⏱️ Tryout UTBK Matematika-01 (Paket 10 Soal, 20 Menit)\n\n> Aturan: 120 detik/soal, tanpa kalkulator. Kerjakan berurut → skor → bedah yang ❌.\n> Kriteria: ≥8 Lulus, 6–7 Ulangi pacing, ≤5 kembali ke teori Tingkat 1–2.\n\n## Soal (ringkas, pembahasan penuh di note masing-masing)\n\n- [ ] **1 (Pola):** $U_n=n(n+1)$, $U_{10}=?$ → [[20-Latihan-Soal/UTBK/UTBK-01-Pola-Barisan|UTBK-01]] — kunci $\\boxed{110}$\n- [ ] **2 (Aljabar):** $x+y=30$, $x-y=8$, $xy=?$ → [[20-Latihan-Soal/UTBK/UTBK-02-Aljabar-Backsolving|UTBK-02]] — kunci $\\boxed{209}$\n- [ ] **3 (Ruang):** Kubus 6 minus silinder $r=2$ → [[20-Latihan-Soal/UTBK/UTBK-03-Geometri-Ruang|UTBK-03]] — kunci $\\boxed{984/7}$\n- [ ] **4 (Trigo):** Elevasi $30^\\circ$, $d=30\\sqrt3$ → [[20-Latihan-Soal/UTBK/UTBK-04-Trigonometri-Terapan|UTBK-04]] — kunci $\\boxed{31{,}5\\ \\text{m}}$\n- [ ] **5 (Data):** Mean 5 data $8$ + 12, 4 → [[20-Latihan-Soal/UTBK/UTBK-05-Peluang-Data|UTBK-05]] — kunci $\\boxed{8}$\n- [ ] **6 (SPLDV cepat):** $2x+3y=12$, $x-y=1$ → [[20-Latihan-Soal/SMA/SPLDV-01-Eliminasi-Substitusi|SPLDV-01]] — kunci $\\boxed{(3,\\,2)}$\n- [ ] **7 (Kuadrat):** Diskriminan $x^2-6x+9$ → [[20-Latihan-Soal/SMA/Fungsi-Kuadrat-01-Diskriminan|Kuadrat-01]] — $D=0$ (kembar)\n- [ ] **8 (Limit):** $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$ → [[20-Latihan-Soal/SMA/Limit-01-Substitusi-Pemfaktoran|Limit-01]] — kunci $\\boxed{4}$\n- [ ] **9 (Trigo):** $\\sin^2x+\\cos^2x$ → [[20-Latihan-Soal/SMA/Trigonometri-01-Identitas|Trigo-01]] — kunci $\\boxed{1}$\n- [ ] **10 (Barisan):** $U_5$ aritmetika $a=2,b=3$ → [[20-Latihan-Soal/SMA/Barisan-Deret-01-Aritmetika|Barisan-01]] — kunci $\\boxed{14}$\n\n## Skor & Bedah\n\n| No | ✅/❌ | Waktu | Sebab salah (1 baris) |\n|---|---|---|---|\n| 1–10 | | | |\n\n- Skor: __ / 10. Tiap ❌ → tambah 1 flashcard di note soalnya + tandai `status` tetap `belum`.\n- Pacing jebol? Baca [[10-Teori/08-UTBK/Strategi-Penalaran-Matematika|Strategi UTBK]] → ulang H-pacing di bawah.\n\n## Pacing drill (15 mnt)\n\n1. 5 soal ⭐2–⭐3 dari [[20-Latihan-Soal/MOC-Soal|Peta Soal]] tanpa hint, timer 10 mnt.\n2. Cek: tiap soal >150 dtk = soal-skip (latih insting skip).\n\n---\n🔗 Teori: [[10-Teori/MOC-Teori|Peta Teori]] • Strategi: [[10-Teori/08-UTBK/Strategi-Penalaran-Matematika|Strategi UTBK]] • Hitung cepat: [[10-Teori/08-UTBK/Hitung-Cepat-Aproksimasi|Hitung Cepat]]\n",
+    "visuals": [],
+    "desmos": [],
+    "flashcards": [],
+    "pro_gated": false
+   }
+  ]
+ }
+}
